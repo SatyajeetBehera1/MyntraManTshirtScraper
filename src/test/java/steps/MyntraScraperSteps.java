@@ -143,7 +143,7 @@ public class MyntraScraperSteps {
     }
 
     private int extractNumericValue(String discountString) {
-        try {
+        try { 
             return Integer.parseInt(discountString.replaceAll("[^0-9]", ""));
         } catch (NumberFormatException e) {
             System.err.println("Error extracting numeric value from discount: " + e.getMessage());

@@ -14,7 +14,7 @@ MyntraManTshirtScraper is a Playwright-based web scraping project designed to ex
 - Displays the sorted data in the console.
 
 ## Prerequisites
-- Java Development Kit (JDK) installed (version 8 or above).
+- Java Development Kit (JDK) installed (between version 11 and version 18 above that it will give some errors).
 - Maven installed for dependency management.
 - Basic understanding of Java, Playwright, and Cucumber BDD.
 

@@ -1,0 +1,315 @@
+# Created at 2024-12-27T08:58:53.415
+Thread dump for process (9008@Satyajeet):
+"main" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+        at java.base@17.0.13/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+        at app//com.microsoft.playwright.impl.PipeTransport.poll(PipeTransport.java:68)
+        at app//com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:205)
+        at app//com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+        at app//com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+        at app//com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+        at app//com.microsoft.playwright.impl.FrameImpl.getAttributeImpl(FrameImpl.java:445)
+        at app//com.microsoft.playwright.impl.FrameImpl.lambda$getAttribute$17(FrameImpl.java:370)
+        at app//com.microsoft.playwright.impl.FrameImpl$$Lambda$332/0x000001ba2215a360.get(Unknown Source)
+        at app//com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+        at app//com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+        at app//com.microsoft.playwright.impl.FrameImpl.getAttribute(FrameImpl.java:370)
+        at app//com.microsoft.playwright.impl.LocatorImpl.getAttribute(LocatorImpl.java:266)
+        at app//com.microsoft.playwright.Locator.getAttribute(Locator.java:3101)
+        at app//steps.MyntraScraperSteps.scrapePageProducts(MyntraScraperSteps.java:129)
+        at app//steps.MyntraScraperSteps.collectDiscountedTshirts(MyntraScraperSteps.java:96)
+        at java.base@17.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@17.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base@17.0.13/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@17.0.13/java.lang.reflect.Method.invoke(Method.java:568)
+        at app//io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+        at app//io.cucumber.java.Invoker.invoke(Invoker.java:24)
+        at app//io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+        at app//io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+        at app//io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+        at app//io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+        at app//io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+        at app//io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+        at app//io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+        at app//io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+        at app//io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+        at app//io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+        at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+        at app//io.cucumber.junit.PickleRunners$NoStepDescriptions$$Lambda$232/0x000001ba220b8228.accept(Unknown Source)
+        at app//io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+        at app//io.cucumber.core.runtime.CucumberExecutionContext$$Lambda$233/0x000001ba220b8458.run(Unknown Source)
+        at app//io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+        at app//io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+        at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+        at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+        at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+        at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+        at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+        at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+        at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+        at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+        at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+        at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+        at app//io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+        at app//io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+        at app//io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+        at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+        at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+        at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+        at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+        at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+        at app//io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+        at app//io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+        at app//io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+        at app//io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+        at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+        at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.13/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@17.0.13/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+        at java.base@17.0.13/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.13/java.lang.Object.wait(Native Method)
+        at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.base@17.0.13/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.13/java.lang.Object.wait(Native Method)
+        at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.13/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@17.0.13/java.lang.Thread.run(Thread.java:842)
+        at java.base@17.0.13/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+        at java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+        at java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+        at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+        at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+        at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+        at java.base@17.0.13/java.lang.Thread.run(Thread.java:842)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@17.0.13/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@17.0.13/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:197)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:579)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:79)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:322)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:357)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:309)
+        at java.base@17.0.13/java.lang.Thread.run(Thread.java:842)
+
+"Thread-1" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.13/java.io.FileInputStream.readBytes(Native Method)
+        at java.base@17.0.13/java.io.FileInputStream.read(FileInputStream.java:276)
+        at java.base@17.0.13/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+        at java.base@17.0.13/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+        at java.base@17.0.13/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+        at java.base@17.0.13/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+        at java.base@17.0.13/java.io.FilterInputStream.read(FilterInputStream.java:82)
+        at app//com.microsoft.playwright.impl.ReaderThread.readIntLE(PipeTransport.java:105)
+        at app//com.microsoft.playwright.impl.ReaderThread.readMessage(PipeTransport.java:139)
+        at app//com.microsoft.playwright.impl.ReaderThread.run(PipeTransport.java:125)
+
+"Thread-2" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+        at java.base@17.0.13/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+        at java.base@17.0.13/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+        at java.base@17.0.13/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+        at app//com.microsoft.playwright.impl.WriterThread.run(PipeTransport.java:168)
+
+
+
+# Created at 2024-12-27T08:58:53.433
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (9008@Satyajeet):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1007)
+        at java.base@17.0.13/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:494)
+        at java.base@17.0.13/java.util.concurrent.ArrayBlockingQueue.put(ArrayBlockingQueue.java:373)
+        at app//com.microsoft.playwright.impl.PipeTransport.send(PipeTransport.java:56)
+        at app//com.microsoft.playwright.impl.Connection.internalSendMessage(Connection.java:168)
+        at app//com.microsoft.playwright.impl.Connection.sendMessageAsync(Connection.java:134)
+        at app//com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+        at app//com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+        at app//com.microsoft.playwright.impl.FrameImpl.textContentImpl(FrameImpl.java:818)
+        at app//com.microsoft.playwright.impl.FrameImpl.lambda$textContent$38(FrameImpl.java:809)
+        at app//com.microsoft.playwright.impl.FrameImpl$$Lambda$331/0x000001ba22159d18.get(Unknown Source)
+        at app//com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+        at app//com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+        at app//com.microsoft.playwright.impl.FrameImpl.textContent(FrameImpl.java:809)
+        at app//com.microsoft.playwright.impl.LocatorImpl.textContent(LocatorImpl.java:591)
+        at app//com.microsoft.playwright.Locator.textContent(Locator.java:5179)
+        at app//steps.MyntraScraperSteps.scrapePageProducts(MyntraScraperSteps.java:126)
+        at app//steps.MyntraScraperSteps.collectDiscountedTshirts(MyntraScraperSteps.java:96)
+        at java.base@17.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@17.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base@17.0.13/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@17.0.13/java.lang.reflect.Method.invoke(Method.java:568)
+        at app//io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+        at app//io.cucumber.java.Invoker.invoke(Invoker.java:24)
+        at app//io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+        at app//io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+        at app//io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+        at app//io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+        at app//io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+        at app//io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+        at app//io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+        at app//io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+        at app//io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+        at app//io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+        at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+        at app//io.cucumber.junit.PickleRunners$NoStepDescriptions$$Lambda$232/0x000001ba220b8228.accept(Unknown Source)
+        at app//io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+        at app//io.cucumber.core.runtime.CucumberExecutionContext$$Lambda$233/0x000001ba220b8458.run(Unknown Source)
+        at app//io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+        at app//io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+        at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+        at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+        at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+        at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+        at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+        at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+        at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+        at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+        at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+        at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+        at app//io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+        at app//io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+        at app//io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+        at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+        at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+        at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+        at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+        at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+        at app//io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+        at app//io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+        at app//io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+        at app//io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+        at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+        at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+        at app//org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.13/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@17.0.13/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+        at java.base@17.0.13/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.13/java.lang.Object.wait(Native Method)
+        at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.base@17.0.13/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.13/java.lang.Object.wait(Native Method)
+        at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.13/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@17.0.13/java.lang.Thread.run(Thread.java:842)
+        at java.base@17.0.13/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+        at java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+        at java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+        at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+        at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+        at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+        at java.base@17.0.13/java.lang.Thread.run(Thread.java:842)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@17.0.13/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@17.0.13/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:197)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:579)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:79)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:315)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:357)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.exitByConfiguration(CommandReader.java:367)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:330)
+        at java.base@17.0.13/java.lang.Thread.run(Thread.java:842)
+
+"Thread-1" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.13/java.io.FileInputStream.readBytes(Native Method)
+        at java.base@17.0.13/java.io.FileInputStream.read(FileInputStream.java:276)
+        at java.base@17.0.13/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+        at java.base@17.0.13/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+        at java.base@17.0.13/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+        at java.base@17.0.13/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+        at java.base@17.0.13/java.io.FilterInputStream.read(FilterInputStream.java:82)
+        at app//com.microsoft.playwright.impl.ReaderThread.readIntLE(PipeTransport.java:105)
+        at app//com.microsoft.playwright.impl.ReaderThread.readMessage(PipeTransport.java:139)
+        at app//com.microsoft.playwright.impl.ReaderThread.run(PipeTransport.java:125)
+
+"Thread-2" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+        at java.base@17.0.13/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+        at java.base@17.0.13/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+        at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+        at java.base@17.0.13/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+        at app//com.microsoft.playwright.impl.WriterThread.run(PipeTransport.java:168)
+
+
+

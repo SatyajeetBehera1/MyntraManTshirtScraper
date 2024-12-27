@@ -1,15 +1,15 @@
 package steps;
 
 /* 
-Importing the playwright library which provides tools for automating web browsers 
-and interacting with web pages in a programmatic way
+Importing the Playwright library, which provides tools for automating web browsers 
+and interacting with web pages in a programmatic way.
 */
 import com.microsoft.playwright.*;
 
 /*
-Importing Cucumber's @Given, @When, @And, and @Then annotations
-These annotations are used to define step definitions in Cucumber's Behavior-Driven Development (BDD) framework
-Each annotation corresponds to a step in the Gherkin feature file
+Importing Cucumber's @Given, @When, @And, and @Then annotations.
+These annotations are used to define step definitions in Cucumber's Behavior-Driven Development (BDD) framework.
+Each annotation corresponds to a step in the Gherkin feature file.
 */
 import io.cucumber.java.en.*;
 
@@ -17,19 +17,21 @@ import java.util.*;
 
 public class MyntraScraperSteps {
 
+    // Browser and page objects for interacting with the browser.
     public Browser browser;
     public Page page;
+
+    // Store the brand being filtered and a list of T-shirts data.
     public String brand;
     List<Map<String, String>> tshirts = new ArrayList<>();
 
     /*
     Navigate to the provided URL using the Playwright library.
-    Added try-catch to handle navigation errors.
+    A browser instance is launched, and the page navigates to the specified URL.
     */
     @Given("I navigate to {string}")
-    public void NavigateToUrl(String url) {
+    public void openWebsite(String url) {
         try {
-            // Initializing Playwright and opening a browser session
             Playwright playwright = Playwright.create();
             BrowserType browserType = playwright.chromium();
             browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false));
@@ -41,13 +43,12 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Hover over the specified category to reveal subcategories.
-    Added try-catch to handle interaction errors.
+    Hover over the specified category on the website to reveal subcategories.
+    Useful for accessing deeper levels of navigation.
     */
     @When("I select the {string} category")
-    public void SelectCategory(String category) {
+    public void hoverOverCategory(String category) {
         try {
-            // Hovering over the specified category text (e.g., "MENS")
             page.hover("text=" + category);
         } catch (Exception e) {
             System.err.println("Error selecting category: " + e.getMessage());
@@ -55,33 +56,29 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Filter items by product type (e.g., "T-shirts").
-    Enhanced selector to dynamically handle different categories.
+    Filter items by the specified product type, such as T-shirts.
+    Uses dynamic selectors to handle different types of products.
     */
     @And("I filter by type {string}")
-    public void FilterByType(String Type) {
+    public void clickProductType(String type) {
         try {
-            page.click("a[href='/men-" + Type.toLowerCase() + "']");
+            page.click("a[href='/men-" + type.toLowerCase() + "']");
         } catch (Exception e) {
             System.err.println("Error filtering by type: " + e.getMessage());
         }
     }
 
     /*
-    Apply a filter for the specified brand using the search input.
-    Enhanced to include event dispatching for consistent interaction.
+    Apply a filter for the specified brand using the website's search functionality.
+    Ensures the brand filter is dynamically applied and interacts with the UI.
     */
     @And("I filter by brand {string}")
-    public void FilterByBrand(String shirt_brand) {
-        brand = shirt_brand;
+    public void applyBrandFilter(String shirtBrand) {
+        brand = shirtBrand;
         try {
-            // Clicking the search icon for brand filter
             page.click(".filter-search-iconSearch");
-             // Typing the brand name into the search box
             page.fill(".filter-search-inputBox", brand);
-            // Simulating pressing the "Enter" key to apply the filter
             page.press(".filter-search-inputBox", "Enter");
-             // Clicking the checkbox for the brand (handling pseudo-element issue)
             page.locator("input[type='checkbox'][value='" + brand + "']").dispatchEvent("click");
         } catch (Exception e) {
             System.err.println("Error filtering by brand: " + e.getMessage());
@@ -89,18 +86,18 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Extract discounted T-shirts data, navigating through all pagination.
-    Added dynamic pagination handling and error handling for missing elements.
+    Extract information about discounted T-shirts by navigating through all pages.
+    Handles dynamic pagination and ensures all products are collected.
     */
     @Then("I extract the discounted T-shirts data")
-    public void ExtractDiscountedTshirts() {
+    public void collectDiscountedTshirts() {
         try {
             while (true) {
-                extractProductsFromPage();
+                scrapePageProducts();
 
                 Locator nextButton = page.locator(".pagination-next");
                 if (nextButton.count() == 0 || nextButton.getAttribute("class").contains("pagination-disabled")) {
-                    break; // Exit if no more pages
+                    break;
                 }
 
                 nextButton.click();
@@ -112,10 +109,10 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Extract data for all products on the current page.
-    Enhanced to handle cases where elements might not be visible.
+    Scrape product information, such as original price, discounted price, discount percentage, and link,
+    from all visible products on the current page.
     */
-    private void extractProductsFromPage() {
+    private void scrapePageProducts() {
         try {
             page.waitForSelector(".product-base");
             Locator products = page.locator(".product-base");
@@ -149,16 +146,16 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Sort the T-shirts by discount percentage using bubble sort.
-    This ensures a stable and simple sorting algorithm is used.
+    Sort the collected T-shirts by their discount percentage in descending order.
+    Bubble sort is used for simplicity, as the dataset is expected to be small.
     */
     @Then("I sort the tshirts by highest discount")
-    public void SortDiscountedTshirts() {
+    public void sortTshirtsByDiscount() {
         int n = tshirts.size();
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                int discountA = extractNumericValue(tshirts.get(j).get("discount"));
-                int discountB = extractNumericValue(tshirts.get(j + 1).get("discount"));
+                int discountA = parseDiscountValue(tshirts.get(j).get("discount"));
+                int discountB = parseDiscountValue(tshirts.get(j + 1).get("discount"));
 
                 if (discountA < discountB) {
                     Map<String, String> temp = tshirts.get(j);
@@ -170,12 +167,12 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Extract numeric values from discount strings.
-    Handles cases where input might not be purely numeric.
+    Convert a discount percentage string to an integer.
+    Handles potential errors in parsing numeric values from text.
     */
-    private int extractNumericValue(String discountString) {
+    private int parseDiscountValue(String discountText) {
         try {
-            return Integer.parseInt(discountString.replaceAll("[^0-9]", ""));
+            return Integer.parseInt(discountText.replaceAll("[^0-9]", ""));
         } catch (NumberFormatException e) {
             System.err.println("Error extracting numeric value from discount: " + e.getMessage());
             return 0;
@@ -183,11 +180,11 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Print the sorted T-shirt data to the console.
-    Handles errors during display and ensures browser closure.
+    Print the sorted T-shirts data, including discount details and links, to the console.
+    Ensures the browser is closed properly after data display.
     */
     @Then("I print the sorted data to the console")
-    public void DisplaySortedData() {
+    public void displaySortedTshirts() {
         try {
             System.out.println("DISCOUNTS FOR BRAND: " + brand);
             System.out.println("*****************************");

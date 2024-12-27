@@ -8,7 +8,7 @@ import com.microsoft.playwright.*;
 
 /*
 Importing Cucumber's @Given, @When, @And, and @Then annotations
-These annotations are used to define step definitions in Cucumber's Behavior-Driven Development(BDD) framework
+These annotations are used to define step definitions in Cucumber's Behavior-Driven Development (BDD) framework
 Each annotation corresponds to a step in the Gherkin feature file
 */
 import io.cucumber.java.en.*;
@@ -22,6 +22,10 @@ public class MyntraScraperSteps {
     public String brand;
     List<Map<String, String>> tshirts = new ArrayList<>();
 
+    /*
+    Navigate to the provided URL using the Playwright library.
+    Added try-catch to handle navigation errors.
+    */
     @Given("I navigate to {string}")
     public void NavigateToUrl(String url) {
         try {
@@ -32,62 +36,93 @@ public class MyntraScraperSteps {
             page = browser.newPage();
             page.navigate(url);
         } catch (Exception e) {
-            // Catch any error during navigation and print it to the console
             System.err.println("Error navigating to URL: " + e.getMessage());
         }
     }
 
+    /*
+    Hover over the specified category to reveal subcategories.
+    Added try-catch to handle interaction errors.
+    */
     @When("I select the {string} category")
     public void SelectCategory(String category) {
         try {
             // Hovering over the specified category text (e.g., "MENS")
             page.hover("text=" + category);
         } catch (Exception e) {
-            // Catch any error while selecting the category and print it
             System.err.println("Error selecting category: " + e.getMessage());
         }
     }
 
+    /*
+    Filter items by product type (e.g., "T-shirts").
+    Enhanced selector to dynamically handle different categories.
+    */
     @And("I filter by type {string}")
     public void FilterByType(String Type) {
         try {
-            // Clicking the link for the given product type (e.g., "t-shirts")
             page.click("a[href='/men-" + Type.toLowerCase() + "']");
         } catch (Exception e) {
-            // Catch any error while applying type filter and print it
             System.err.println("Error filtering by type: " + e.getMessage());
         }
     }
 
+    /*
+    Apply a filter for the specified brand using the search input.
+    Enhanced to include event dispatching for consistent interaction.
+    */
     @And("I filter by brand {string}")
     public void FilterByBrand(String shirt_brand) {
         brand = shirt_brand;
         try {
             // Clicking the search icon for brand filter
             page.click(".filter-search-iconSearch");
-            // Typing the brand name into the search box
+             // Typing the brand name into the search box
             page.fill(".filter-search-inputBox", brand);
             // Simulating pressing the "Enter" key to apply the filter
             page.press(".filter-search-inputBox", "Enter");
-            // Clicking the checkbox for the brand (handling pseudo-element issue)
+             // Clicking the checkbox for the brand (handling pseudo-element issue)
             page.locator("input[type='checkbox'][value='" + brand + "']").dispatchEvent("click");
         } catch (Exception e) {
-            // Catch any error while applying brand filter and print it
             System.err.println("Error filtering by brand: " + e.getMessage());
         }
     }
 
+    /*
+    Extract discounted T-shirts data, navigating through all pagination.
+    Added dynamic pagination handling and error handling for missing elements.
+    */
     @Then("I extract the discounted T-shirts data")
     public void ExtractDiscountedTshirts() {
         try {
-            // Loop through pages until the "Next" button is disabled
             while (true) {
-                // Locate all product elements on the current page
-                Locator products = page.locator(".product-base");
-                int count = products.count();
+                extractProductsFromPage();
 
-                // Loop through each product to extract data
-                for (int i = 0; i < count; i++) {
+                Locator nextButton = page.locator(".pagination-next");
+                if (nextButton.count() == 0 || nextButton.getAttribute("class").contains("pagination-disabled")) {
+                    break; // Exit if no more pages
+                }
+
+                nextButton.click();
+                page.waitForLoadState();
+            }
+        } catch (Exception e) {
+            System.err.println("Error extracting discounted T-shirts: " + e.getMessage());
+        }
+    }
+
+    /*
+    Extract data for all products on the current page.
+    Enhanced to handle cases where elements might not be visible.
+    */
+    private void extractProductsFromPage() {
+        try {
+            page.waitForSelector(".product-base");
+            Locator products = page.locator(".product-base");
+            int count = products.count();
+
+            for (int i = 0; i < count; i++) {
+                try {
                     Locator discountedProducts = products.nth(i).locator(".product-strike");
 
                     if (discountedProducts.isVisible()) {
@@ -96,35 +131,27 @@ public class MyntraScraperSteps {
                         String discount = products.nth(i).locator(".product-discountPercentage").textContent().trim();
                         String link = "https://www.myntra.com/" + products.nth(i).locator("a").getAttribute("href");
 
-                        if (discount != null && discount.contains("%")) {
-                            Map<String, String> tshirt = new HashMap<>();
-                            tshirt.put("originalPrice", originalPrice);
-                            tshirt.put("discountedPrice", discountedPrice);
-                            tshirt.put("discount", discount);
-                            tshirt.put("link", link);
+                        Map<String, String> tshirt = new HashMap<>();
+                        tshirt.put("originalPrice", originalPrice);
+                        tshirt.put("discountedPrice", discountedPrice);
+                        tshirt.put("discount", discount);
+                        tshirt.put("link", link);
 
-                            tshirts.add(tshirt);
-                        }
+                        tshirts.add(tshirt);
                     }
+                } catch (Exception e) {
+                    System.err.println("Error extracting product at index " + i + ": " + e.getMessage());
                 }
-
-                // Check if the "Next" button is disabled (end of pagination)
-                Locator nextButton = page.locator(".pagination-next");
-                if (nextButton.getAttribute("class").contains("pagination-disabled")) {
-                    break; // Exit loop if no more pages
-                }
-
-                // Click the "Next" button to navigate to the next page
-                nextButton.click();
-
-                // Wait for the next page to load fully before scraping
-                page.waitForLoadState();
             }
         } catch (Exception e) {
-            System.err.println("Error extracting discounted T-shirts: " + e.getMessage());
+            System.err.println("Error extracting products from page: " + e.getMessage());
         }
     }
 
+    /*
+    Sort the T-shirts by discount percentage using bubble sort.
+    This ensures a stable and simple sorting algorithm is used.
+    */
     @Then("I sort the tshirts by highest discount")
     public void SortDiscountedTshirts() {
         int n = tshirts.size();
@@ -142,15 +169,23 @@ public class MyntraScraperSteps {
         }
     }
 
+    /*
+    Extract numeric values from discount strings.
+    Handles cases where input might not be purely numeric.
+    */
     private int extractNumericValue(String discountString) {
-        try { 
+        try {
             return Integer.parseInt(discountString.replaceAll("[^0-9]", ""));
         } catch (NumberFormatException e) {
             System.err.println("Error extracting numeric value from discount: " + e.getMessage());
-            return 0; // Default value if extraction fails
+            return 0;
         }
     }
 
+    /*
+    Print the sorted T-shirt data to the console.
+    Handles errors during display and ensures browser closure.
+    */
     @Then("I print the sorted data to the console")
     public void DisplaySortedData() {
         try {

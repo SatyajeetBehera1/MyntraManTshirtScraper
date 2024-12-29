@@ -1,7 +1,7 @@
 package steps;
 
 /* 
-Importing the Playwright library, which provides tools for automating web browsers 
+Importing the playwright library which provides tools for automating web browsers 
 and interacting with web pages in a programmatic way.
 */
 import com.microsoft.playwright.*;
@@ -17,20 +17,17 @@ import java.util.*;
 
 public class MyntraScraperSteps {
 
-    // Browser and page objects for interacting with the browser.
     public Browser browser;
     public Page page;
-
-    // Store the brand being filtered and a list of T-shirts data.
     public String brand;
     List<Map<String, String>> tshirts = new ArrayList<>();
 
     /*
     Navigate to the provided URL using the Playwright library.
-    A browser instance is launched, and the page navigates to the specified URL.
+    Added try-catch to handle navigation errors.
     */
     @Given("I navigate to {string}")
-    public void openWebsite(String url) {
+    public void NavigateToUrl(String url) {
         try {
             Playwright playwright = Playwright.create();
             BrowserType browserType = playwright.chromium();
@@ -43,11 +40,11 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Hover over the specified category on the website to reveal subcategories.
-    Useful for accessing deeper levels of navigation.
+    Hover over the specified category to reveal subcategories.
+    Added try-catch to handle interaction errors.
     */
     @When("I select the {string} category")
-    public void hoverOverCategory(String category) {
+    public void SelectCategory(String category) {
         try {
             page.hover("text=" + category);
         } catch (Exception e) {
@@ -56,25 +53,25 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Filter items by the specified product type, such as T-shirts.
-    Uses dynamic selectors to handle different types of products.
+    Filter items by product type (e.g., "T-shirts").
+    Enhanced selector to dynamically handle different categories.
     */
     @And("I filter by type {string}")
-    public void clickProductType(String type) {
+    public void FilterByType(String Type) {
         try {
-            page.click("a[href='/men-" + type.toLowerCase() + "']");
+            page.click("a[href='/men-" + Type.toLowerCase() + "']");
         } catch (Exception e) {
             System.err.println("Error filtering by type: " + e.getMessage());
         }
     }
 
     /*
-    Apply a filter for the specified brand using the website's search functionality.
-    Ensures the brand filter is dynamically applied and interacts with the UI.
+    Apply a filter for the specified brand using the search input.
+    Enhanced to include event dispatching for consistent interaction.
     */
     @And("I filter by brand {string}")
-    public void applyBrandFilter(String shirtBrand) {
-        brand = shirtBrand;
+    public void FilterByBrand(String shirt_brand) {
+        brand = shirt_brand;
         try {
             page.click(".filter-search-iconSearch");
             page.fill(".filter-search-inputBox", brand);
@@ -86,14 +83,14 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Extract information about discounted T-shirts by navigating through all pages.
-    Handles dynamic pagination and ensures all products are collected.
+    Extract discounted T-shirts data, navigating through all pagination.
+    Added dynamic pagination handling and error handling for missing elements.
     */
     @Then("I extract the discounted T-shirts data")
-    public void collectDiscountedTshirts() {
+    public void ExtractDiscountedTshirts() {
         try {
             while (true) {
-                scrapePageProducts();
+                extractProductsFromPage();
 
                 Locator nextButton = page.locator(".pagination-next");
                 if (nextButton.count() == 0 || nextButton.getAttribute("class").contains("pagination-disabled")) {
@@ -109,10 +106,10 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Scrape product information, such as original price, discounted price, discount percentage, and link,
-    from all visible products on the current page.
+    Extract data for all products on the current page.
+    Enhanced to handle cases where elements might not be visible.
     */
-    private void scrapePageProducts() {
+    private void extractProductsFromPage() {
         try {
             page.waitForSelector(".product-base");
             Locator products = page.locator(".product-base");
@@ -120,21 +117,34 @@ public class MyntraScraperSteps {
 
             for (int i = 0; i < count; i++) {
                 try {
-                    Locator discountedProducts = products.nth(i).locator(".product-strike");
+                    // Adding retry mechanism for handling intermittent issues
+                    int retries = 3;
+                    while (retries > 0) {
+                        try {
+                            Locator discountedProducts = products.nth(i).locator(".product-strike");
 
-                    if (discountedProducts.isVisible()) {
-                        String discountedPrice = products.nth(i).locator(".product-discountedPrice").textContent().trim();
-                        String originalPrice = discountedProducts.textContent().trim();
-                        String discount = products.nth(i).locator(".product-discountPercentage").textContent().trim();
-                        String link = "https://www.myntra.com/" + products.nth(i).locator("a").getAttribute("href");
+                            // Check if the product has a discount element and if it is visible
+                            if (discountedProducts.count() > 0 && discountedProducts.isVisible()) {
+                                String discountedPrice = products.nth(i).locator(".product-discountedPrice").textContent().trim();
+                                String originalPrice = discountedProducts.textContent().trim();
+                                String discount = products.nth(i).locator(".product-discountPercentage").textContent().trim();
+                                String link = "https://www.myntra.com/" + products.nth(i).locator("a").getAttribute("href");
 
-                        Map<String, String> tshirt = new HashMap<>();
-                        tshirt.put("originalPrice", originalPrice);
-                        tshirt.put("discountedPrice", discountedPrice);
-                        tshirt.put("discount", discount);
-                        tshirt.put("link", link);
+                                Map<String, String> tshirt = new HashMap<>();
+                                tshirt.put("originalPrice", originalPrice);
+                                tshirt.put("discountedPrice", discountedPrice);
+                                tshirt.put("discount", discount);
+                                tshirt.put("link", link);
 
-                        tshirts.add(tshirt);
+                                tshirts.add(tshirt);
+                            }
+                            break; // Exit retry loop if successful
+                        } catch (Exception e) {
+                            retries--;
+                            if (retries == 0) {
+                                System.err.println("Failed to extract product at index " + i + " after retries");
+                            }
+                        }
                     }
                 } catch (Exception e) {
                     System.err.println("Error extracting product at index " + i + ": " + e.getMessage());
@@ -146,18 +156,18 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Sort the collected T-shirts by their discount percentage in descending order.
-    Bubble sort is used for simplicity, as the dataset is expected to be small.
+    Sort the T-shirts by discount percentage using bubble sort.
+    This ensures a stable and simple sorting algorithm is used.
     */
     @Then("I sort the tshirts by highest discount")
-    public void sortTshirtsByDiscount() {
+    public void SortDiscountedTshirts() {
         int n = tshirts.size();
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                int discountA = parseDiscountValue(tshirts.get(j).get("discount"));
-                int discountB = parseDiscountValue(tshirts.get(j + 1).get("discount"));
+                int discount1 = extractNumericValue(tshirts.get(j).get("discount"));
+                int discount2 = extractNumericValue(tshirts.get(j + 1).get("discount"));
 
-                if (discountA < discountB) {
+                if (discount1 < discount2) {
                     Map<String, String> temp = tshirts.get(j);
                     tshirts.set(j, tshirts.get(j + 1));
                     tshirts.set(j + 1, temp);
@@ -167,12 +177,12 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Convert a discount percentage string to an integer.
-    Handles potential errors in parsing numeric values from text.
+    Extract numeric values from discount strings.
+    Handles cases where input might not be purely numeric.
     */
-    private int parseDiscountValue(String discountText) {
+    private int extractNumericValue(String discountString) {
         try {
-            return Integer.parseInt(discountText.replaceAll("[^0-9]", ""));
+            return Integer.parseInt(discountString.replaceAll("[^0-9]", ""));
         } catch (NumberFormatException e) {
             System.err.println("Error extracting numeric value from discount: " + e.getMessage());
             return 0;
@@ -180,11 +190,11 @@ public class MyntraScraperSteps {
     }
 
     /*
-    Print the sorted T-shirts data, including discount details and links, to the console.
-    Ensures the browser is closed properly after data display.
+    Print the sorted T-shirt data to the console.
+    Handles errors during display and ensures browser closure.
     */
     @Then("I print the sorted data to the console")
-    public void displaySortedTshirts() {
+    public void DisplaySortedData() {
         try {
             System.out.println("DISCOUNTS FOR BRAND: " + brand);
             System.out.println("*****************************");

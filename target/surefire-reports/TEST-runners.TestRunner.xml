@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="240.211" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="165.338" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\KIIT\AppData\Local\Temp\surefire5533065947410413097\surefirebooter-20241229121932592_3.jar C:\Users\KIIT\AppData\Local\Temp\surefire5533065947410413097 2024-12-29T12-19-32_373-jvmRun1 surefire-20241229121932592_1tmp surefire_0-20241229121932592_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\KIIT\AppData\Local\Temp\surefire1712168049480300172\surefirebooter-20241230212923693_3.jar C:\Users\KIIT\AppData\Local\Temp\surefire1712168049480300172 2024-12-30T21-29-23_483-jvmRun1 surefire-20241230212923693_1tmp surefire_0-20241230212923693_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\KIIT\Desktop\project_youtube_clone-main\MyntraManTshirtScraper\target\test-classes;C:\Users\KIIT\Desktop\project_youtube_clone-main\MyntraManTshirtScraper\target\classes;C:\Users\KIIT\.m2\repository\com\microsoft\playwright\playwright\1.46.0\playwright-1.46.0.jar;C:\Users\KIIT\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\KIIT\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\KIIT\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\KIIT\.m2\repository\com\microsoft\playwright\driver\1.46.0\driver-1.46.0.jar;C:\Users\KIIT\.m2\repository\com\microsoft\playwright\driver-bundle\1.46.0\driver-bundle-1.46.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\KIIT\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\KIIT\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\KIIT\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\KIIT\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\KIIT\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\KIIT\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KIIT\AppData\Local\Temp\surefire5533065947410413097\surefirebooter-20241229121932592_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KIIT\AppData\Local\Temp\surefire1712168049480300172\surefirebooter-20241230212923693_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.13+10-LTS-268"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Extract and sort Van Heusen discounted T-shirts by highest discount" classname="To Scrape Van Heusen discounted T-shirts on Myntra" time="239.857">
+  <testcase name="Extract and sort Van Heusen discounted T-shirts by highest discount" classname="To Scrape Van Heusen discounted T-shirts on Myntra" time="164.971">
     <system-out><![CDATA[
 Scenario: Extract and sort Van Heusen discounted T-shirts by highest discount # src/test/resources/features/myntra_scraper.feature:3
   Given I navigate to "https://www.myntra.com"                                # steps.MyntraScraperSteps.NavigateToUrl(java.lang.String)
@@ -68,65 +68,65 @@ Scenario: Extract and sort Van Heusen discounted T-shirts by highest discount # 
   Then I sort the tshirts by highest discount                                 # steps.MyntraScraperSteps.SortDiscountedTshirts()
 DISCOUNTS FOR BRAND: Van Heusen
 *****************************
-Discounted Price: Rs. 699
-Original Price: Rs. 1249
-Discount: (Rs. 550 OFF)
-Link: https://www.myntra.com/tshirts/bewakoof/bewakoof-official-rick-and-morty-merchandise--stoned-rick-morty-printed-oversized-t-shirt/24744464/buy
+Discounted Price: Rs. 759
+Original Price: Rs. 1998
+Discount: (Rs. 1239 OFF)
+Link: https://www.myntra.com/tshirts/color+capital/color-capital-unisex-typography-printed-round-neck-short-sleeves-oversized-cotton-t-shirt/28967572/buy
 *****************************
 Discounted Price: Rs. 623
 Original Price: Rs. 2399
 Discount: (74% OFF)
 Link: https://www.myntra.com/tshirts/maniac/maniac-men-henley-neck-pockets-t-shirt/30521323/buy
 *****************************
-Discounted Price: Rs. 383
-Original Price: Rs. 1199
-Discount: (68% OFF)
-Link: https://www.myntra.com/tshirts/veirdo/veirdo-men-typography-printed-round-neck-pure-cotton-oversized-t-shirt/30516203/buy
+Discounted Price: Rs. 539
+Original Price: Rs. 1998
+Discount: (73% OFF)
+Link: https://www.myntra.com/tshirts/snitch/snitch-men-polo-collar-pockets-slim-fit-t-shirt/30027929/buy
 *****************************
-Discounted Price: Rs. 596
-Original Price: Rs. 1569
+Discounted Price: Rs. 599
+Original Price: Rs. 1999
+Discount: (70% OFF)
+Link: https://www.myntra.com/tshirts/nautica/nautica-polo-collar-pure-cotton-t-shirt/28157468/buy
+*****************************
+Discounted Price: Rs. 569
+Original Price: Rs. 1499
 Discount: (62% OFF)
-Link: https://www.myntra.com/tshirts/maniac/maniac-striped-round-neck-t-shirt/28727814/buy
-*****************************
-Discounted Price: Rs. 439
-Original Price: Rs. 1099
-Discount: (60% OFF)
-Link: https://www.myntra.com/tshirts/urbano+fashion/urbano-fashion-men-teal-green-slim-fit-tropical-printed-pure-cotton-t-shirt/12377258/buy
+Link: https://www.myntra.com/tshirts/roadster/the-roadster-lifestyle-co-men-navy-blue-solid-embroidered-polo-pure-cotton-t-shirt/10574868/buy
 *****************************
 Discounted Price: Rs. 639
 Original Price: Rs. 1599
 Discount: (60% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black--white-striped-polo-collar-t-shirt/17685916/buy
-*****************************
-Discounted Price: Rs. 639
-Original Price: Rs. 1599
-Discount: (60% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black--white-striped-polo-collar-t-shirt/17685916/buy
-*****************************
-Discounted Price: Rs. 639
-Original Price: Rs. 1599
-Discount: (60% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black--white-striped-polo-collar-t-shirt/17685916/buy
-*****************************
-Discounted Price: Rs. 639
-Original Price: Rs. 1599
-Discount: (60% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black--white-striped-polo-collar-t-shirt/17685916/buy
-*****************************
-Discounted Price: Rs. 587
-Original Price: Rs. 1399
-Discount: (58% OFF)
-Link: https://www.myntra.com/tshirts/being+human/being-human-polo-collar-pure-cotton-t-shirt/31641922/buy
 *****************************
 Discounted Price: Rs. 587
 Original Price: Rs. 1399
 Discount: (58% OFF)
 Link: https://www.myntra.com/tshirts/being+human/being-human-polo-collar-pure-cotton-t-shirt/31641917/buy
 *****************************
+Discounted Price: Rs. 307
+Original Price: Rs. 699
+Discount: (56% OFF)
+Link: https://www.myntra.com/tshirts/hrx+by+hrithik+roshan/hrx-by-hrithik-roshan-men-olive-green-solid-bio-wash-running-tshirt/11999496/buy
+*****************************
+Discounted Price: Rs. 659
+Original Price: Rs. 1499
+Discount: (56% OFF)
+Link: https://www.myntra.com/tshirts/being+human/being-human-polo-collar-pure-cotton-t-shirt/31302009/buy
+*****************************
+Discounted Price: Rs. 539
+Original Price: Rs. 1199
+Discount: (55% OFF)
+Link: https://www.myntra.com/tshirts/cult/cult-typographic-print-active-t-shirt/22507866/buy
+*****************************
 Discounted Price: Rs. 674
 Original Price: Rs. 1499
 Discount: (55% OFF)
-Link: https://www.myntra.com/tshirts/being+human/being-human-polo-collar-pure-cotton-t-shirt/31302009/buy
+Link: https://www.myntra.com/tshirts/being+human/being-human-polo-collar-pure-cotton-t-shirt/31634491/buy
+*****************************
+Discounted Price: Rs. 1714
+Original Price: Rs. 3499
+Discount: (51% OFF)
+Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-divide-polo-collar-slim-fit-cotton-t-shirt/23669102/buy
 *****************************
 Discounted Price: Rs. 342
 Original Price: Rs. 699
@@ -138,75 +138,50 @@ Original Price: Rs. 2299
 Discount: (51% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/22195280/buy
 *****************************
-Discounted Price: Rs. 499
-Original Price: Rs. 999
+Discounted Price: Rs. 1649
+Original Price: Rs. 3299
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/united+colors+of+benetton/united-colors-of-benetton-typography-printed-round-neck-cotton-casual-t-shirt/27441320/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-t-shirt/18766748/buy
+Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-mello-polo-collar-slim-fit-cotton-t-shirt/25231736/buy
 *****************************
 Discounted Price: Rs. 749
 Original Price: Rs. 1499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25850838/buy
-*****************************
-Discounted Price: Rs. 1249
-Original Price: Rs. 2499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-t-shirt/25556888/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/29400072/buy
 *****************************
 Discounted Price: Rs. 649
 Original Price: Rs. 1299
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-t-shirt/18766748/buy
-*****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25850838/buy
-*****************************
-Discounted Price: Rs. 1249
-Original Price: Rs. 2499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-t-shirt/25556888/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-t-shirt/18766748/buy
-*****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25850838/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868930/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-designed-slim-fit-t-shirt/26034950/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-slim-fit-sports-t-shirt/29400078/buy
 *****************************
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-typography-printed-slim-fit-yoga-t-shirt/20628632/buy
 *****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-raglan-sleeves-slim-fit-t-shirt/23486756/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/29400072/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-slim-fit-sports-t-shirt/29400078/buy
+*****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-typography-printed-slim-fit-yoga-t-shirt/20628632/buy
 *****************************
 Discounted Price: Rs. 749
 Original Price: Rs. 1499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-v-neck-slim-fit-t-shirt/21276202/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/29400072/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-slim-fit-sports-t-shirt/29400078/buy
 *****************************
 Discounted Price: Rs. 1299
 Original Price: Rs. 2599
@@ -218,10 +193,25 @@ Original Price: Rs. 2599
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/30548078/buy
 *****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868930/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-short-sleeves-t-shirt/23486720/buy
+*****************************
+Discounted Price: Rs. 1149
+Original Price: Rs. 2299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300454/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-pure-cotton-t-shirt/26868936/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeve-slim-fit-t-shirt/24890694/buy
 *****************************
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
@@ -231,47 +221,97 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-designed-slim-fi
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-typography-printed-slim-fit-yoga-t-shirt/20628632/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868930/buy
 *****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-raglan-sleeves-slim-fit-t-shirt/23486756/buy
 *****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-v-neck-slim-fit-t-shirt/21276202/buy
-*****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeve-slim-fit-t-shirt/24890694/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-cycling-t-shirt/19851232/buy
+*****************************
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25850838/buy
+*****************************
+Discounted Price: Rs. 799
+Original Price: Rs. 1599
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/23486750/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-cotton-t-shirt/23421844/buy
 *****************************
 Discounted Price: Rs. 1249
 Original Price: Rs. 2499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-short-sleeves-t-shirt/23486720/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-t-shirt/25556888/buy
 *****************************
 Discounted Price: Rs. 649
 Original Price: Rs. 1299
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-orange-applique-slim-fit-t-shirt/18318084/buy
 *****************************
+Discounted Price: Rs. 799
+Original Price: Rs. 1599
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/23486736/buy
+*****************************
 Discounted Price: Rs. 1249
 Original Price: Rs. 2499
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-t-shirt/25850836/buy
+*****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/30755265/buy
+*****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-red-polo-collar-t-shirt/25700940/buy
+*****************************
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-v-neck-slim-fit-sports-yoga-t-shirt/19511092/buy
+*****************************
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-slim-fit-training-t-shirt/19511020/buy
 *****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235394/buy
 *****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-red-polo-collar-t-shirt/25700940/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-crew-neck-slim-fit-t-shirt/26324436/buy
+*****************************
+Discounted Price: Rs. 1399
+Original Price: Rs. 2799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/25556890/buy
+*****************************
+Discounted Price: Rs. 849
+Original Price: Rs. 1699
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-t-shirt/24235402/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-t-shirt/23421846/buy
 *****************************
 Discounted Price: Rs. 649
 Original Price: Rs. 1299
@@ -281,122 +321,12 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-cotton-yoga-
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/30755265/buy
-*****************************
-Discounted Price: Rs. 799
-Original Price: Rs. 1599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/23486750/buy
-*****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300454/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-crew-neck-slim-fit-t-shirt/26324436/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/25556890/buy
-*****************************
-Discounted Price: Rs. 799
-Original Price: Rs. 1599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/23486736/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-t-shirt/23421846/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-cotton-t-shirt/23421844/buy
-*****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300454/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-crew-neck-slim-fit-t-shirt/26324436/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/25556890/buy
-*****************************
-Discounted Price: Rs. 799
-Original Price: Rs. 1599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/23486736/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-t-shirt/23421846/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-cotton-t-shirt/23421844/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-mock-collar-t-shirt/26450222/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-textured-polo-collar-sports-t-shirt/25605336/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-regular-fit-cotton-t-shirt/25605224/buy
-*****************************
-Discounted Price: Rs. 1249
-Original Price: Rs. 2499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pockets-cotton-t-shirt/23613020/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-raglan-sleeves-slim-fit-t-shirt/24235400/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235392/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-cycling-t-shirt/19851232/buy
-*****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-slim-fit-training-t-shirt/19511020/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-tropical-printed-polo-collar-t-shirt/22354902/buy
 *****************************
 Discounted Price: Rs. 799
 Original Price: Rs. 1599
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-short-sleeves-t-shirt/23486758/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-self-designed-mandarin-collar-cotton-t-shirt/23613014/buy
 *****************************
 Discounted Price: Rs. 949
 Original Price: Rs. 1899
@@ -408,160 +338,105 @@ Original Price: Rs. 3999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/28980446/buy
 *****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-tropical-printed-polo-collar-t-shirt/22354902/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-mock-collar-t-shirt/26450222/buy
-*****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-textured-polo-collar-sports-t-shirt/25605336/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-regular-fit-cotton-t-shirt/25605224/buy
-*****************************
-Discounted Price: Rs. 1249
-Original Price: Rs. 2499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pockets-cotton-t-shirt/23613020/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-raglan-sleeves-slim-fit-t-shirt/24235400/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235392/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-cycling-t-shirt/19851232/buy
-*****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-slim-fit-training-t-shirt/19511020/buy
-*****************************
-Discounted Price: Rs. 799
-Original Price: Rs. 1599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-short-sleeves-t-shirt/23486758/buy
 *****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-self-designed-mandarin-collar-cotton-t-shirt/23613014/buy
 *****************************
-Discounted Price: Rs. 949
-Original Price: Rs. 1899
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-regular-fit-running-t-shirt/21875888/buy
-*****************************
-Discounted Price: Rs. 1999
-Original Price: Rs. 3999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/28980446/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-tropical-printed-polo-collar-t-shirt/22354902/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-mock-collar-t-shirt/26450222/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-textured-polo-collar-sports-t-shirt/25605336/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-regular-fit-cotton-t-shirt/25605224/buy
-*****************************
 Discounted Price: Rs. 1249
 Original Price: Rs. 2499
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pockets-cotton-t-shirt/23613020/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-raglan-sleeves-slim-fit-t-shirt/24235400/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235392/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-navy-blue-applique-slim-fit-t-shirt/18766762/buy
-*****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/27930256/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235398/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-green-slim-fit-sports-t-shirt/20461336/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-t-shirt/25557006/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/25605230/buy
-*****************************
-Discounted Price: Rs. 949
-Original Price: Rs. 1899
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-brand-logo-printed-polo-collar-golf-t-shirt/20343860/buy
-*****************************
-Discounted Price: Rs. 949
-Original Price: Rs. 1899
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-golf-printed-polo-collar-t-shirt/19917298/buy
-*****************************
-Discounted Price: Rs. 949
-Original Price: Rs. 1899
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-golf-solid-polo-collar-t-shirt/20628628/buy
 *****************************
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/25557008/buy
 *****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-mock-collar-t-shirt/26450222/buy
+*****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868938/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-raglan-sleeves-slim-fit-t-shirt/24235400/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-navy-blue-applique-slim-fit-t-shirt/18766762/buy
+*****************************
+Discounted Price: Rs. 849
+Original Price: Rs. 1699
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235392/buy
+*****************************
+Discounted Price: Rs. 949
+Original Price: Rs. 1899
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-golf-solid-polo-collar-t-shirt/20628628/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-geometric-printed-slim-fit-cycling-sports-t-shirt/20628616/buy
+*****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-tropical-printed-polo-collar-t-shirt/22354902/buy
+*****************************
+Discounted Price: Rs. 799
+Original Price: Rs. 1599
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-short-sleeves-t-shirt/23486758/buy
+*****************************
+Discounted Price: Rs. 1149
+Original Price: Rs. 2299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-regular-fit-polo-collar-t-shirt/22316356/buy
+*****************************
+Discounted Price: Rs. 524
+Original Price: Rs. 1049
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-round-neck-t-shirt/25605326/buy
+*****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-mock-collar-t-shirt/26450224/buy
+*****************************
+Discounted Price: Rs. 949
+Original Price: Rs. 1899
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-multicoloured-colourblocked-polo-collar-t-shirt/20344234/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-red--black-striped-polo-collar-t-shirt/19660934/buy
+*****************************
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-training-t-shirt/19511010/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-slim-fit-golf-t-shirt/20172416/buy
+*****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-yoga-raw-edge-slim-fit-sports-t-shirt/18766752/buy
 *****************************
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
@@ -576,32 +451,22 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeve-slim-fi
 Discounted Price: Rs. 949
 Original Price: Rs. 1899
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-cotton-sports-t-shirt/20217616/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-brand-logo-printed-polo-collar-golf-t-shirt/20343860/buy
 *****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
+Discounted Price: Rs. 949
+Original Price: Rs. 1899
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-slim-fit-golf-t-shirt/20172416/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-golf-printed-polo-collar-t-shirt/19917298/buy
 *****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-red--black-striped-polo-collar-t-shirt/19660934/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868938/buy
 *****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-yoga-raw-edge-slim-fit-sports-t-shirt/18766752/buy
-*****************************
-Discounted Price: Rs. 799
-Original Price: Rs. 1599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-golf-colourblocked-henley-neck-slim-fit-sports-t-shirt/18656800/buy
-*****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/25850834/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/27930256/buy
 *****************************
 Discounted Price: Rs. 1399
 Original Price: Rs. 2799
@@ -613,80 +478,160 @@ Original Price: Rs. 2499
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/25340546/buy
 *****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-regular-fit-polo-collar-t-shirt/22316356/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235398/buy
+*****************************
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-chevron-geometric-printed-self-designed-polo-collar-cotton-t-shirt/23613016/buy
+*****************************
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-slim-fit-t-shirt/22354936/buy
 *****************************
 Discounted Price: Rs. 749
 Original Price: Rs. 1499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-training-t-shirt/19511010/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-v-neck-slim-fit-t-shirt/21276202/buy
 *****************************
 Discounted Price: Rs. 649
 Original Price: Rs. 1299
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-colourblocked-slim-fit-cycling-t-shirt/21194828/buy
 *****************************
+Discounted Price: Rs. 649
+Original Price: Rs. 1299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-green-slim-fit-sports-t-shirt/20461336/buy
+*****************************
 Discounted Price: Rs. 949
 Original Price: Rs. 1899
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-cotton-sports-t-shirt/20217616/buy
 *****************************
+Discounted Price: Rs. 799
+Original Price: Rs. 1599
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-golf-colourblocked-henley-neck-slim-fit-sports-t-shirt/18656800/buy
+*****************************
+Discounted Price: Rs. 1299
+Original Price: Rs. 2599
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pocket-t-shirt/27929962/buy
+*****************************
+Discounted Price: Rs. 1399
+Original Price: Rs. 2799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/25850834/buy
+*****************************
+Discounted Price: Rs. 1399
+Original Price: Rs. 2799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/25605230/buy
+*****************************
+Discounted Price: Rs. 1399
+Original Price: Rs. 2799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-regular-fit-cotton-t-shirt/25605224/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-t-shirt/25557006/buy
+*****************************
+Discounted Price: Rs. 1399
+Original Price: Rs. 2799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-paisley-printed-polo-collar-pure-cotton-t-shirt/25386630/buy
+*****************************
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/25340546/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-raglan-sleeves-slim-fit-t-shirt/24235398/buy
+*****************************
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-chevron-geometric-printed-self-designed-polo-collar-cotton-t-shirt/23613016/buy
+*****************************
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-slim-fit-t-shirt/22354936/buy
+*****************************
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-v-neck-slim-fit-t-shirt/21276202/buy
+*****************************
 Discounted Price: Rs. 649
 Original Price: Rs. 1299
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-slim-fit-golf-t-shirt/20172416/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-colourblocked-slim-fit-cycling-t-shirt/21194828/buy
 *****************************
-Discounted Price: Rs. 844
+Discounted Price: Rs. 649
 Original Price: Rs. 1299
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/25386808/buy
-*****************************
-Discounted Price: Rs. 1499
-Original Price: Rs. 2999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/21469466/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/22926656/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-peach-coloured-polo-collar-slim-fit-t-shirt/19094976/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-green-slim-fit-sports-t-shirt/20461336/buy
 *****************************
 Discounted Price: Rs. 949
 Original Price: Rs. 1899
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-sports-t-shirt/20343868/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-cotton-sports-t-shirt/20217616/buy
 *****************************
 Discounted Price: Rs. 1499
 Original Price: Rs. 2999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-checked-polo-collar-t-shirt/29054908/buy
 *****************************
-Discounted Price: Rs. 1499
-Original Price: Rs. 2999
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-textured-polo-neck-pure-cotton-t-shirt/26373042/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/22354934/buy
 *****************************
-Discounted Price: Rs. 1249
-Original Price: Rs. 2499
+Discounted Price: Rs. 849
+Original Price: Rs. 1699
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-short-sleeves-pure-cotton-t-shirt/23486722/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/25386808/buy
 *****************************
-Discounted Price: Rs. 1249
-Original Price: Rs. 2499
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/23420822/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/30371532/buy
 *****************************
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pockets-t-shirt/30371519/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/29344902/buy
+*****************************
+Discounted Price: Rs. 1149
+Original Price: Rs. 2299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/28092946/buy
+*****************************
+Discounted Price: Rs. 1499
+Original Price: Rs. 2999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/25386626/buy
+*****************************
+Discounted Price: Rs. 1149
+Original Price: Rs. 2299
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/22195276/buy
 *****************************
 Discounted Price: Rs. 999
 Original Price: Rs. 1999
@@ -697,41 +642,6 @@ Discounted Price: Rs. 999
 Original Price: Rs. 1999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/25557004/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/29344902/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/23889652/buy
-*****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/28092946/buy
-*****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/22195276/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-floral-printed-polo-collar-t-shirt/22354914/buy
-*****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-orange-striped-polo-collar-t-shirt/17598776/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/25386808/buy
 *****************************
 Discounted Price: Rs. 1299
 Original Price: Rs. 2599
@@ -758,40 +668,50 @@ Original Price: Rs. 2799
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868940/buy
 *****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
+Discounted Price: Rs. 1149
+Original Price: Rs. 2299
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/30371532/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-pure-cotton-t-shirt/27188226/buy
 *****************************
-Discounted Price: Rs. 999
-Original Price: Rs. 1999
+Discounted Price: Rs. 849
+Original Price: Rs. 1699
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453486/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-white-slim-fit-t-shirt/26324472/buy
 *****************************
 Discounted Price: Rs. 1499
 Original Price: Rs. 2999
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-linen-t-shirt/23486714/buy
 *****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1499
+Discounted Price: Rs. 1399
+Original Price: Rs. 2799
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-round-neck-t-shirt/25605320/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-polo-collar-t-shirt/27025024/buy
 *****************************
 Discounted Price: Rs. 1249
 Original Price: Rs. 2499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-slim-fit-t-shirt/22354904/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/23420822/buy
+*****************************
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453486/buy
 *****************************
 Discounted Price: Rs. 949
 Original Price: Rs. 1899
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-sports-t-shirt/20343880/buy
 *****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1799
+Discounted Price: Rs. 749
+Original Price: Rs. 1499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-henley-neck-pure-cotton-smart-casual-t-shirt/23643892/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-round-neck-t-shirt/25605320/buy
+*****************************
+Discounted Price: Rs. 499
+Original Price: Rs. 999
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-red-slim-fit-t-shirt/26324456/buy
 *****************************
 Discounted Price: Rs. 1399
 Original Price: Rs. 2799
@@ -808,35 +728,40 @@ Original Price: Rs. 2599
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-geometric-printed-polo-collar-cotton-t-shirt/30231698/buy
 *****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 2599
+Discounted Price: Rs. 1499
+Original Price: Rs. 2999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/29121062/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-linen-t-shirt/23486710/buy
 *****************************
-Discounted Price: Rs. 1399
-Original Price: Rs. 2799
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-polo-collar-t-shirt/27025024/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-slim-fit-t-shirt/22354904/buy
 *****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-white-slim-fit-t-shirt/26324472/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/22354932/buy
 *****************************
-Discounted Price: Rs. 499
-Original Price: Rs. 999
+Discounted Price: Rs. 1499
+Original Price: Rs. 2999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-red-slim-fit-t-shirt/26324456/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/21469466/buy
+*****************************
+Discounted Price: Rs. 949
+Original Price: Rs. 1899
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-sports-t-shirt/20343868/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1799
+Discount: (50% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brown-striped-cotton-polo-collar-t-shirt/20587516/buy
 *****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1799
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-orange--black-colourblocked-polo-collar-t-shirt/19851228/buy
-*****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-yellow-solid-polo-collar-t-shirt/19851058/buy
 *****************************
 Discounted Price: Rs. 549
 Original Price: Rs. 1099
@@ -858,10 +783,10 @@ Original Price: Rs. 1699
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-colourblocked-polo-collar-training-t-shirt/18656818/buy
 *****************************
-Discounted Price: Rs. 1149
-Original Price: Rs. 2299
+Discounted Price: Rs. 999
+Original Price: Rs. 1999
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-pure-cotton-t-shirt/27188226/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-orange-striped-polo-collar-t-shirt/17598776/buy
 *****************************
 Discounted Price: Rs. 1249
 Original Price: Rs. 2499
@@ -878,85 +803,60 @@ Original Price: Rs. 1499
 Discount: (50% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-slim-fit-sports-t-shirt/25605358/buy
 *****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 2599
+Discounted Price: Rs. 1249
+Original Price: Rs. 2499
 Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300450/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/25556894/buy
 *****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-henley-neck-pure-cotton-slim-fit-t-shirt/26870126/buy
-*****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 2599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300450/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-henley-neck-pure-cotton-slim-fit-t-shirt/26870126/buy
-*****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 2599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300450/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-henley-neck-pure-cotton-slim-fit-t-shirt/26870126/buy
-*****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 2599
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300450/buy
-*****************************
-Discounted Price: Rs. 849
-Original Price: Rs. 1699
-Discount: (50% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-henley-neck-pure-cotton-slim-fit-t-shirt/26870126/buy
+Discounted Price: Rs. 1784
+Original Price: Rs. 3499
+Discount: (49% OFF)
+Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-divide-polo-collar-slim-fit-cotton-t-shirt/23669104/buy
 *****************************
 Discounted Price: Rs. 1264
 Original Price: Rs. 2299
 Discount: (45% OFF)
 Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-princeton-geometric-printed-cotton-slim-fit-t-shirt/23862292/buy
 *****************************
-Discounted Price: Rs. 1507
-Original Price: Rs. 2599
-Discount: (42% OFF)
-Link: https://www.myntra.com/tshirts/the+bear+house/the-bear-house-men-solid-regular-fit-cotton-polo-collar-t-shirt/28120458/buy
+Discounted Price: Rs. 1264
+Original Price: Rs. 2299
+Discount: (45% OFF)
+Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-flames-2-slim-fit-graphic-printed-cotton-t-shirt/23518068/buy
+*****************************
+Discounted Price: Rs. 1814
+Original Price: Rs. 3299
+Discount: (45% OFF)
+Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-mello-polo-collar-slim-fit-cotton-t-shirt/25231738/buy
+*****************************
+Discounted Price: Rs. 599
+Original Price: Rs. 999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/adidas/adidas-pure-cotton-round-neck-logo-co-tee-t-shirt/29564798/buy
 *****************************
 Discounted Price: Rs. 419
 Original Price: Rs. 699
 Discount: (40% OFF)
 Link: https://www.myntra.com/lounge-tshirts/u.s.+polo+assn./us-polo-assn-navy-blue-lounge-t-shirt-i633-195-pl/2465172/buy
 *****************************
-Discounted Price: Rs. 1079
-Original Price: Rs. 1799
+Discounted Price: Rs. 779
+Original Price: Rs. 1299
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-ditsy-printed-mandarin-collar-pure-cotton-t-shirt/23379368/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/28117090/buy
+Link: https://www.myntra.com/tshirts/pepe+jeans/pepe-jeans-brand-logo-printed-pure-cotton-slim-fit-t-shirt/30647096/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30548080/buy
 *****************************
+Discounted Price: Rs. 1379
+Original Price: Rs. 2299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/28117090/buy
+*****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300448/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-pockets-t-shirt/30755260/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
@@ -968,55 +868,15 @@ Original Price: Rs. 2499
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/28117498/buy
 *****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
+Discounted Price: Rs. 1079
+Original Price: Rs. 1799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-t-shirt/28408724/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/27736578/buy
 *****************************
 Discounted Price: Rs. 1379
 Original Price: Rs. 2299
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/28117084/buy
-*****************************
-Discounted Price: Rs. 629
-Original Price: Rs. 1049
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-slim-fit-sports-t-shirt/20172430/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-checked-polo-collar-cotton-t-shirt/31248278/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/27982216/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-cotton-pockets-t-shirt/29682370/buy
-*****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 1199
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-cotton-t-shirt/27930260/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736614/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066370/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066318/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-geometric-printed-regular-fit-cotton-t-shirt/28517788/buy
 *****************************
 Discounted Price: Rs. 1559
 Original Price: Rs. 2599
@@ -1027,101 +887,156 @@ Discounted Price: Rs. 1559
 Original Price: Rs. 2599
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-embroidered-t-shirt/29904288/buy
-*****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 1199
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-cotton-t-shirt/27930260/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736614/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066370/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066318/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/31543015/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-embroidered-t-shirt/29904288/buy
-*****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 1199
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-cotton-t-shirt/27930260/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736614/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066370/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066318/buy
 *****************************
 Discounted Price: Rs. 1199
 Original Price: Rs. 1999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/27736628/buy
 *****************************
-Discounted Price: Rs. 1079
-Original Price: Rs. 1799
+Discounted Price: Rs. 629
+Original Price: Rs. 1049
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/27736578/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486754/buy
 *****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
+Discounted Price: Rs. 719
+Original Price: Rs. 1199
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/29054906/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-abstract-printed-polo-collar-cotton-t-shirt/30908937/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-applique-t-shirt/30337920/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/31125954/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-cotton-t-shirt/27930260/buy
 *****************************
 Discounted Price: Rs. 1379
 Original Price: Rs. 2299
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/27930304/buy
 *****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1249
+Discounted Price: Rs. 959
+Original Price: Rs. 1599
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-viro-tech-pure-cotton-polo-collar-t-shirt/15381814/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-slim-fit-t-shirt/26324444/buy
 *****************************
-Discounted Price: Rs. 1679
-Original Price: Rs. 2799
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-polo-collar-pure-cotton-t-shirt/25907226/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066370/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736614/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/25907292/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453488/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066318/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/31543015/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-embroidered-t-shirt/29904288/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/27736628/buy
+*****************************
+Discounted Price: Rs. 629
+Original Price: Rs. 1049
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486754/buy
+*****************************
+Discounted Price: Rs. 719
+Original Price: Rs. 1199
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-cotton-t-shirt/27930260/buy
+*****************************
+Discounted Price: Rs. 1379
+Original Price: Rs. 2299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/27930304/buy
+*****************************
+Discounted Price: Rs. 959
+Original Price: Rs. 1599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-slim-fit-t-shirt/26324444/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066370/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736614/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/25907292/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453488/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066318/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/31543015/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-embroidered-t-shirt/29904288/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/27736628/buy
+*****************************
+Discounted Price: Rs. 629
+Original Price: Rs. 1049
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486754/buy
+*****************************
+Discounted Price: Rs. 719
+Original Price: Rs. 1199
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-slim-fit-cotton-t-shirt/27930260/buy
+*****************************
+Discounted Price: Rs. 1379
+Original Price: Rs. 2299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/27930304/buy
+*****************************
+Discounted Price: Rs. 959
+Original Price: Rs. 1599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-slim-fit-t-shirt/26324444/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066370/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
@@ -1133,25 +1048,25 @@ Original Price: Rs. 2999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-t-shirt/29344642/buy
 *****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/28517878/buy
-*****************************
 Discounted Price: Rs. 1079
 Original Price: Rs. 1799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-pure-cotton-printed-henley-neck-t-shirt/22910402/buy
 *****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/27736628/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300456/buy
 *****************************
-Discounted Price: Rs. 1079
-Original Price: Rs. 1799
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/27736578/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-floral-printed-polo-collar-pure-cotton-t-shirt/25556896/buy
+*****************************
+Discounted Price: Rs. 1379
+Original Price: Rs. 2299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-short-sleeves-t-shirt/28650670/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
@@ -1176,16 +1091,6 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar
 Discounted Price: Rs. 1379
 Original Price: Rs. 2299
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/27930304/buy
-*****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1249
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-viro-tech-pure-cotton-polo-collar-t-shirt/15381814/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/31125955/buy
 *****************************
 Discounted Price: Rs. 1379
@@ -1196,12 +1101,12 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-geometric-printed
 Discounted Price: Rs. 1199
 Original Price: Rs. 1999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453488/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/28517878/buy
 *****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1249
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-viro-tech-pure-cotton-polo-collar-t-shirt/15381534/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453484/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
@@ -1213,50 +1118,30 @@ Original Price: Rs. 2999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-self-design-polo-collar-cotton-t-shirt/31205232/buy
 *****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
+Discounted Price: Rs. 1679
+Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-mandarin-collar-t-shirt/29867030/buy
-*****************************
-Discounted Price: Rs. 629
-Original Price: Rs. 1049
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486754/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30548082/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-pure-cotton-t-shirt/29121060/buy
 *****************************
-Discounted Price: Rs. 959
-Original Price: Rs. 1599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-graphic-printed-slim-fit-t-shirt/26324444/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/25907292/buy
-*****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30548082/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453484/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-polo-collar-pure-cotton-t-shirt/25907226/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-abstract-printed-polo-collar-cotton-t-shirt/30908933/buy
 *****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
+Discounted Price: Rs. 749
+Original Price: Rs. 1249
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300456/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-viro-tech-pure-cotton-polo-collar-t-shirt/15381534/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
@@ -1268,75 +1153,35 @@ Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30908927/buy
 *****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-textured-polo-collar-pure-cotton-casual-t-shirt/29407232/buy
-*****************************
 Discounted Price: Rs. 779
 Original Price: Rs. 1299
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-crew-neck-slim-fit-t-shirt/26324468/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/31125955/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-geometric-printed-polo-collar-cotton-t-shirt/30649719/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/27828784/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25842014/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/31205231/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-floral-printed-polo-collar-pure-cotton-t-shirt/25556896/buy
-*****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 1299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30953762/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30953759/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-checked-polo-collar-cotton-t-shirt/31125959/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30908941/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30908969/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30908939/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30861202/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/30755258/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-pockets-t-shirt/30755262/buy
 *****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30696631/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30231699/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-applique-t-shirt/30548083/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
@@ -1348,30 +1193,55 @@ Original Price: Rs. 2999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300446/buy
 *****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
+Discounted Price: Rs. 1739
+Original Price: Rs. 2899
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-short-sleeves-t-shirt/28650680/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-colourblocked-polo-collar-t-shirt/26772254/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/31125952/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30953761/buy
+*****************************
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-mandarin-collar-t-shirt/30337922/buy
+*****************************
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-polo-collar-short-sleeves-cotton-t-shirt/29510926/buy
 *****************************
 Discounted Price: Rs. 1379
 Original Price: Rs. 2299
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-regular-fit-t-shirt/28408722/buy
 *****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/27474206/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/27828784/buy
+*****************************
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/25386634/buy
 *****************************
 Discounted Price: Rs. 1079
 Original Price: Rs. 1799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/23486746/buy
 *****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 1199
+Discounted Price: Rs. 1679
+Original Price: Rs. 2799
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486740/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/31205231/buy
 *****************************
 Discounted Price: Rs. 1559
 Original Price: Rs. 2599
@@ -1408,95 +1278,45 @@ Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-cotton-t-shirt/30696631/buy
 *****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30231699/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-polo-collar-short-sleeves-cotton-t-shirt/29510924/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-casual-t-shirt/29300446/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-short-sleeves-t-shirt/28650680/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-regular-fit-t-shirt/28408722/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066310/buy
 *****************************
 Discounted Price: Rs. 1559
 Original Price: Rs. 2599
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/27474206/buy
-*****************************
-Discounted Price: Rs. 1079
-Original Price: Rs. 1799
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/23486746/buy
-*****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 1199
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486740/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/29121056/buy
 *****************************
 Discounted Price: Rs. 1379
 Original Price: Rs. 2299
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/28117092/buy
 *****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1499
+Discounted Price: Rs. 599
+Original Price: Rs. 999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-applique-t-shirt/27982340/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-round-neck-t-shirt/26293316/buy
+*****************************
+Discounted Price: Rs. 779
+Original Price: Rs. 1299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-typography-printed-raw-edge-slim-fit-t-shirt/28117510/buy
 *****************************
 Discounted Price: Rs. 599
 Original Price: Rs. 999
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-printed-slim-fit-t-shirt/26324438/buy
 *****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066310/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-pocket-detailing-polo-collar-cotton-t-shirt/30257987/buy
 *****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/28117092/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1499
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-applique-t-shirt/27982340/buy
-*****************************
-Discounted Price: Rs. 599
-Original Price: Rs. 999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-printed-slim-fit-t-shirt/26324438/buy
-*****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/29066310/buy
-*****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/28117092/buy
-*****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1499
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-applique-t-shirt/27982340/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-pocket-detailing-polo-collar-cotton-t-shirt/30257986/buy
 *****************************
 Discounted Price: Rs. 899
 Original Price: Rs. 1499
@@ -1508,45 +1328,20 @@ Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-self-design-polo-collar-cotton-t-shirt/31205230/buy
 *****************************
-Discounted Price: Rs. 899
-Original Price: Rs. 1499
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-t-shirt/28092956/buy
-*****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/26870120/buy
 *****************************
-Discounted Price: Rs. 1379
-Original Price: Rs. 2299
+Discounted Price: Rs. 899
+Original Price: Rs. 1499
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/28650672/buy
-*****************************
-Discounted Price: Rs. 1799
-Original Price: Rs. 2999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/28186700/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-t-shirt/28092956/buy
 *****************************
 Discounted Price: Rs. 779
 Original Price: Rs. 1299
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-typography-printed-raw-edge-slim-fit-t-shirt/28117510/buy
-*****************************
-Discounted Price: Rs. 1499
-Original Price: Rs. 2499
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-polo-collar-t-shirt/27736616/buy
-*****************************
-Discounted Price: Rs. 1679
-Original Price: Rs. 2799
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-polo-collar-pure-cotton-t-shirt/26868928/buy
-*****************************
-Discounted Price: Rs. 599
-Original Price: Rs. 999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-round-neck-t-shirt/26293316/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-crew-neck-slim-fit-t-shirt/26324468/buy
 *****************************
 Discounted Price: Rs. 1499
 Original Price: Rs. 2499
@@ -1558,20 +1353,55 @@ Original Price: Rs. 1299
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-raglan-sleeves-slim-fit-training-t-shirt/21194834/buy
 *****************************
-Discounted Price: Rs. 659
-Original Price: Rs. 1099
+Discounted Price: Rs. 1559
+Original Price: Rs. 2599
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/27930308/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/28517796/buy
+*****************************
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/28186700/buy
+*****************************
+Discounted Price: Rs. 899
+Original Price: Rs. 1499
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-applique-t-shirt/27982340/buy
+*****************************
+Discounted Price: Rs. 1499
+Original Price: Rs. 2499
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-polo-collar-t-shirt/27736616/buy
+*****************************
+Discounted Price: Rs. 1679
+Original Price: Rs. 2799
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-brand-logo-printed-polo-collar-pure-cotton-t-shirt/26868928/buy
+*****************************
+Discounted Price: Rs. 1079
+Original Price: Rs. 1799
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-solid-short-sleeved-polo-collar-t-shirt/25605366/buy
+*****************************
+Discounted Price: Rs. 1499
+Original Price: Rs. 2499
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-coversational-printed-polo-collar-t-shirt/25556898/buy
+*****************************
+Discounted Price: Rs. 779
+Original Price: Rs. 1299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-raglan-sleeves-slim-fit-training-t-shirt/21194834/buy
 *****************************
 Discounted Price: Rs. 779
 Original Price: Rs. 1299
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-polo-collar-knitted-casual-t-shirt/25785870/buy
 *****************************
-Discounted Price: Rs. 1679
-Original Price: Rs. 2799
+Discounted Price: Rs. 749
+Original Price: Rs. 1249
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/25556904/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-antiviral-ultra-soft-polo-t-shirt/15672488/buy
 *****************************
 Discounted Price: Rs. 1199
 Original Price: Rs. 1999
@@ -1588,10 +1418,30 @@ Original Price: Rs. 2299
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/28117068/buy
 *****************************
+Discounted Price: Rs. 659
+Original Price: Rs. 1099
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/27930308/buy
+*****************************
+Discounted Price: Rs. 779
+Original Price: Rs. 1299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-typography-printed-slim-fit-cotton-t-shirt/27930270/buy
+*****************************
 Discounted Price: Rs. 1559
 Original Price: Rs. 2599
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/27288838/buy
+*****************************
+Discounted Price: Rs. 1199
+Original Price: Rs. 1999
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-conversational-printed-polo-collar-pure-cotton-t-shirt/26868922/buy
+*****************************
+Discounted Price: Rs. 1679
+Original Price: Rs. 2799
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/26324224/buy
 *****************************
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
@@ -1606,37 +1456,47 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cott
 Discounted Price: Rs. 1799
 Original Price: Rs. 2999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-pocket-detailing-polo-collar-cotton-t-shirt/30257989/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30337919/buy
 *****************************
-Discounted Price: Rs. 1559
-Original Price: Rs. 2599
+Discounted Price: Rs. 1799
+Original Price: Rs. 2999
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/28117086/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-pocket-detailing-polo-collar-cotton-t-shirt/30257989/buy
 *****************************
 Discounted Price: Rs. 749
 Original Price: Rs. 1249
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-navy-solid-antiviral-ultra-soft-polo-t-shirt/15672278/buy
 *****************************
-Discounted Price: Rs. 749
-Original Price: Rs. 1249
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-antiviral-ultra-soft-polo-t-shirt/15672488/buy
-*****************************
-Discounted Price: Rs. 1199
-Original Price: Rs. 1999
-Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-conversational-printed-polo-collar-pure-cotton-t-shirt/26868922/buy
-*****************************
 Discounted Price: Rs. 1679
 Original Price: Rs. 2799
 Discount: (40% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pure-cotton-t-shirt/26324224/buy
 *****************************
-Discounted Price: Rs. 1079
-Original Price: Rs. 1799
+Discounted Price: Rs. 1499
+Original Price: Rs. 2499
 Discount: (40% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-solid-short-sleeved-polo-collar-t-shirt/25605366/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pockets-cotton-t-shirt/25605232/buy
+*****************************
+Discounted Price: Rs. 1679
+Original Price: Rs. 2799
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/25556904/buy
+*****************************
+Discounted Price: Rs. 1379
+Original Price: Rs. 2299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pocket-t-shirt/25556900/buy
+*****************************
+Discounted Price: Rs. 1379
+Original Price: Rs. 2299
+Discount: (40% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/25459030/buy
+*****************************
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-geometric-printed-polo-collar-cotton-t-shirt/30806141/buy
 *****************************
 Discounted Price: Rs. 649
 Original Price: Rs. 999
@@ -1657,21 +1517,6 @@ Discounted Price: Rs. 1299
 Original Price: Rs. 1999
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/30391671/buy
-*****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 1999
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/30391671/buy
-*****************************
-Discounted Price: Rs. 1494
-Original Price: Rs. 2299
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-short-sleeves-cotton-regular-t-shirt/27025028/buy
-*****************************
-Discounted Price: Rs. 1494
-Original Price: Rs. 2299
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/22354918/buy
 *****************************
 Discounted Price: Rs. 844
 Original Price: Rs. 1299
@@ -1683,15 +1528,15 @@ Original Price: Rs. 2799
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30548086/buy
 *****************************
-Discounted Price: Rs. 1494
-Original Price: Rs. 2299
+Discounted Price: Rs. 1949
+Original Price: Rs. 2999
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-short-sleeves-cotton-regular-t-shirt/27025028/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/28980382/buy
 *****************************
-Discounted Price: Rs. 1494
-Original Price: Rs. 2299
+Discounted Price: Rs. 1234
+Original Price: Rs. 1899
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/22354918/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-training-t-shirt/20309938/buy
 *****************************
 Discounted Price: Rs. 1169
 Original Price: Rs. 1799
@@ -1703,20 +1548,30 @@ Original Price: Rs. 1799
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-solid-mandarin-collar-t-shirt/17733070/buy
 *****************************
-Discounted Price: Rs. 1169
-Original Price: Rs. 1799
+Discounted Price: Rs. 1689
+Original Price: Rs. 2599
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-floral-printed-pure-cotton-slim-fit-t-shirt/30391662/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30806132/buy
+*****************************
+Discounted Price: Rs. 1494
+Original Price: Rs. 2299
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/22354918/buy
 *****************************
 Discounted Price: Rs. 1169
 Original Price: Rs. 1799
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-floral-printed-pure-cotton-slim-fit-t-shirt/30391662/buy
 *****************************
-Discounted Price: Rs. 1234
-Original Price: Rs. 1899
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-training-t-shirt/20309938/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-pockets-t-shirt/28117082/buy
+*****************************
+Discounted Price: Rs. 974
+Original Price: Rs. 1499
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-pure-cotton-slim-fit-pure-cotton-t-shirt/30391666/buy
 *****************************
 Discounted Price: Rs. 1494
 Original Price: Rs. 2299
@@ -1728,75 +1583,75 @@ Original Price: Rs. 1799
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-olive-green-mandarin-collar-t-shirt/17764938/buy
 *****************************
-Discounted Price: Rs. 974
-Original Price: Rs. 1499
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-pure-cotton-slim-fit-pure-cotton-t-shirt/30391666/buy
-*****************************
 Discounted Price: Rs. 1299
 Original Price: Rs. 1999
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/30391670/buy
 *****************************
-Discounted Price: Rs. 1234
-Original Price: Rs. 1899
+Discounted Price: Rs. 1949
+Original Price: Rs. 2999
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-training-t-shirt/20309938/buy
-*****************************
-Discounted Price: Rs. 1494
-Original Price: Rs. 2299
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-pure-cotton-t-shirt/27188224/buy
-*****************************
-Discounted Price: Rs. 1169
-Original Price: Rs. 1799
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-olive-green-mandarin-collar-t-shirt/17764938/buy
-*****************************
-Discounted Price: Rs. 974
-Original Price: Rs. 1499
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-pure-cotton-slim-fit-pure-cotton-t-shirt/30391666/buy
-*****************************
-Discounted Price: Rs. 1299
-Original Price: Rs. 1999
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/30391670/buy
-*****************************
-Discounted Price: Rs. 974
-Original Price: Rs. 1499
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-slim-fit-training-t-shirt/19511130/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-t-shirt/29054914/buy
 *****************************
 Discounted Price: Rs. 1494
 Original Price: Rs. 2299
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/22316348/buy
 *****************************
-Discounted Price: Rs. 1234
-Original Price: Rs. 1899
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-golf-polo-collar-sports-t-shirt/20172406/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-pockets-t-shirt/28117082/buy
+*****************************
+Discounted Price: Rs. 974
+Original Price: Rs. 1499
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-pure-cotton-slim-fit-pure-cotton-t-shirt/30391666/buy
+*****************************
+Discounted Price: Rs. 1494
+Original Price: Rs. 2299
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-micro-or-ditsy-printed-polo-collar-pure-cotton-t-shirt/27188224/buy
+*****************************
+Discounted Price: Rs. 1169
+Original Price: Rs. 1799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-olive-green-mandarin-collar-t-shirt/17764938/buy
+*****************************
+Discounted Price: Rs. 1169
+Original Price: Rs. 1799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-sports-t-shirt/20172402/buy
 *****************************
 Discounted Price: Rs. 974
 Original Price: Rs. 1499
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-typography-printed-applique-slim-fit-t-shirt/28117484/buy
 *****************************
-Discounted Price: Rs. 779
-Original Price: Rs. 1199
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486760/buy
-*****************************
 Discounted Price: Rs. 974
 Original Price: Rs. 1499
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-polo-collar-pure-cotton-slim-fit-t-shirt/30391667/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-slim-fit-training-t-shirt/19511130/buy
+*****************************
+Discounted Price: Rs. 1299
+Original Price: Rs. 1999
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30755264/buy
+*****************************
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-tropical-pockets-t-shirt/30755259/buy
 *****************************
 Discounted Price: Rs. 1169
 Original Price: Rs. 1799
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-sports-t-shirt/20172402/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-geometric-printed-mandarin-collar-pure-cotton-t-shirt/23634572/buy
+*****************************
+Discounted Price: Rs. 1234
+Original Price: Rs. 1899
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-monochrome-golf-t-shirt/20309944/buy
 *****************************
 Discounted Price: Rs. 844
 Original Price: Rs. 1299
@@ -1808,15 +1663,20 @@ Original Price: Rs. 1299
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-slim-fit-t-shirt/19563896/buy
 *****************************
-Discounted Price: Rs. 1819
-Original Price: Rs. 2799
+Discounted Price: Rs. 1949
+Original Price: Rs. 2999
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-striped-polo-collar-pockets-t-shirt/28117082/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300452/buy
 *****************************
 Discounted Price: Rs. 974
 Original Price: Rs. 1499
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-pockets-t-shirt/27982342/buy
+*****************************
+Discounted Price: Rs. 1689
+Original Price: Rs. 2599
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-mandarin-collar-t-shirt/27982206/buy
 *****************************
 Discounted Price: Rs. 2144
 Original Price: Rs. 3299
@@ -1838,37 +1698,27 @@ Original Price: Rs. 1899
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-monochrome-golf-t-shirt/20309944/buy
 *****************************
-Discounted Price: Rs. 1169
-Original Price: Rs. 1799
+Discounted Price: Rs. 844
+Original Price: Rs. 1299
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-sports-t-shirt/20172402/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-cycling-t-shirt/19151840/buy
 *****************************
 Discounted Price: Rs. 844
 Original Price: Rs. 1299
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-printed-slim-fit-t-shirt/26324476/buy
-*****************************
-Discounted Price: Rs. 1494
-Original Price: Rs. 2299
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-t-shirt/25386628/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-slim-fit-t-shirt/19563896/buy
 *****************************
 Discounted Price: Rs. 844
 Original Price: Rs. 1299
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-slim-fit-sports-t-shirt/25104256/buy
 *****************************
-Discounted Price: Rs. 649
-Original Price: Rs. 999
-Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-blue-polo-collar-t-shirt/25700986/buy
-*****************************
 Discounted Price: Rs. 844
 Original Price: Rs. 1299
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-printed-slim-fit-t-shirt/26324476/buy
 *****************************
-Discounted Price: Rs. 659
+Discounted Price: Rs. 1949
 Original Price: Rs. 2999
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/28186710/buy
@@ -1898,6 +1748,11 @@ Original Price: Rs. 1999
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-solid-polo-collar-pocket-slim-fit-casual-t-shirt/22354900/buy
 *****************************
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/27929966/buy
+*****************************
 Discounted Price: Rs. 779
 Original Price: Rs. 1199
 Discount: (35% OFF)
@@ -1911,27 +1766,32 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-checked-polo-collar-p
 Discounted Price: Rs. 1819
 Original Price: Rs. 2799
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/27929966/buy
-*****************************
-Discounted Price: Rs. 1819
-Original Price: Rs. 2799
-Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-pure-cotton-polo-collar-t-shirt/29200240/buy
 *****************************
 Discounted Price: Rs. 1169
 Original Price: Rs. 1799
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-self-design-polo-collar-sports-t-shirt/29200220/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-polo-collar-pure-cotton-t-shirt/23486712/buy
 *****************************
 Discounted Price: Rs. 1494
 Original Price: Rs. 2299
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-t-shirt/29066340/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-regular-fit-polo-collar-t-shirt/22316350/buy
 *****************************
-Discounted Price: Rs. 1949
-Original Price: Rs. 2999
+Discounted Price: Rs. 1494
+Original Price: Rs. 2299
 Discount: (35% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-cotton-t-shirt/28186710/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-pure-cotton-t-shirt/21875706/buy
+*****************************
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/20686962/buy
+*****************************
+Discounted Price: Rs. 1819
+Original Price: Rs. 2799
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-polo-collar-pure-cotton-t-shirt/21276200/buy
 *****************************
 Discounted Price: Rs. 1169
 Original Price: Rs. 1799
@@ -1953,6 +1813,16 @@ Original Price: Rs. 2299
 Discount: (35% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-black-polo-collar-pockets-t-shirt/25700936/buy
 *****************************
+Discounted Price: Rs. 1299
+Original Price: Rs. 1999
+Discount: (35% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30755261/buy
+*****************************
+Discounted Price: Rs. 527
+Original Price: Rs. 799
+Discount: (34% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/11492284/buy
+*****************************
 Discounted Price: Rs. 736
 Original Price: Rs. 1099
 Discount: (33% OFF)
@@ -1973,21 +1843,6 @@ Original Price: Rs. 669
 Discount: (31% OFF)
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672356/buy
 *****************************
-Discounted Price: Rs. 699
-Original Price: Rs. 999
-Discount: (30% OFF)
-Link: https://www.myntra.com/tshirts/marks+%26+spencer/marks--spencer-round-neck-cotton-t-shirt/27398542/buy
-*****************************
-Discounted Price: Rs. 812
-Original Price: Rs. 1129
-Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-regular-fit-casual-t-shirt/24212660/buy
-*****************************
-Discounted Price: Rs. 812
-Original Price: Rs. 1129
-Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-regular-fit-casual-t-shirt/24212660/buy
-*****************************
 Discounted Price: Rs. 812
 Original Price: Rs. 1129
 Discount: (28% OFF)
@@ -1996,7 +1851,7 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-swift-dry-a
 Discounted Price: Rs. 812
 Original Price: Rs. 1129
 Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-swift-dry-anti-microbial-active-t-shirt/21408040/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-regular-fit-casual-t-shirt/24212660/buy
 *****************************
 Discounted Price: Rs. 812
 Original Price: Rs. 1129
@@ -2006,22 +1861,12 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-regular-fi
 Discounted Price: Rs. 812
 Original Price: Rs. 1129
 Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-round-neck-regular-fit-casual-t-shirt/24212664/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-swift-dry-anti-microbial-active-t-shirt/21408044/buy
 *****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 999
-Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-swift-dry-anti-microbial-active-t-shirt/10780134/buy
-*****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 999
-Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-swift-dry-anti-microbial-active-t-shirt/10780134/buy
-*****************************
-Discounted Price: Rs. 719
-Original Price: Rs. 999
-Discount: (28% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-swift-dry-anti-microbial-active-t-shirt/10780134/buy
+Discounted Price: Rs. 1167
+Original Price: Rs. 1599
+Discount: (27% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-abstract-printed-reversible-2-in-1-t-shirt/10780144/buy
 *****************************
 Discounted Price: Rs. 1167
 Original Price: Rs. 1599
@@ -2031,22 +1876,17 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-abstract-printed-
 Discounted Price: Rs. 739
 Original Price: Rs. 999
 Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-t-shirt/22598092/buy
-*****************************
-Discounted Price: Rs. 739
-Original Price: Rs. 999
-Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-striped-swift-dry-crew-neck-t-shirt/22598076/buy
-*****************************
-Discounted Price: Rs. 739
-Original Price: Rs. 999
-Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-t-shirt/22598092/buy
-*****************************
-Discounted Price: Rs. 739
-Original Price: Rs. 999
-Discount: (26% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-striped-swift-dry-crew-neck-t-shirt/22598082/buy
+*****************************
+Discounted Price: Rs. 739
+Original Price: Rs. 999
+Discount: (26% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-slim-fit-t-shirt/22598092/buy
+*****************************
+Discounted Price: Rs. 776
+Original Price: Rs. 1049
+Discount: (26% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-printed-swift-dry-crew-neck-t-shirt/21823992/buy
 *****************************
 Discounted Price: Rs. 776
 Original Price: Rs. 1049
@@ -2056,7 +1896,7 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-chest
 Discounted Price: Rs. 776
 Original Price: Rs. 1049
 Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-printed-swift-dry-crew-neck-t-shirt/21823992/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-printed-swift-dry-crew-neck-t-shirt/21823982/buy
 *****************************
 Discounted Price: Rs. 739
 Original Price: Rs. 999
@@ -2073,25 +1913,10 @@ Original Price: Rs. 999
 Discount: (26% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-striped-swift-dry-crew-neck-t-shirt/22598090/buy
 *****************************
-Discounted Price: Rs. 776
-Original Price: Rs. 1049
+Discounted Price: Rs. 739
+Original Price: Rs. 999
 Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-chest-print-swift-dry-crew-neck-t-shirt/21824002/buy
-*****************************
-Discounted Price: Rs. 887
-Original Price: Rs. 1199
-Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-abstract-printed-t-shirt/21823996/buy
-*****************************
-Discounted Price: Rs. 887
-Original Price: Rs. 1199
-Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-allover-print-swift-dry-crew-neck-t-shirt/21823990/buy
-*****************************
-Discounted Price: Rs. 887
-Original Price: Rs. 1199
-Discount: (26% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-allover-print-swift-dry-crew-neck-t-shirt/21823984/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-men-striped-swift-dry-crew-neck-t-shirt/22598076/buy
 *****************************
 Discounted Price: Rs. 776
 Original Price: Rs. 1049
@@ -2118,20 +1943,40 @@ Original Price: Rs. 1999
 Discount: (25% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-grey-solid-swift-dry-odour-shield-active-jacket/10780090/buy
 *****************************
-Discounted Price: Rs. 615
-Original Price: Rs. 799
+Discounted Price: Rs. 769
+Original Price: Rs. 999
 Discount: (23% OFF)
-Link: https://www.myntra.com/lounge-tshirts/u.s.+polo+assn./us-polo-assn-striped-pure-cotton-lounge-t-shirts/22492628/buy
+Link: https://www.myntra.com/lounge-tshirts/u.s.+polo+assn./us-polo-assn-typography-printed-round-neck-lounge-t-shirts/25049794/buy
+*****************************
+Discounted Price: Rs. 528
+Original Price: Rs. 669
+Discount: (21% OFF)
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672870/buy
 *****************************
 Discounted Price: Rs. 528
 Original Price: Rs. 669
 Discount: (21% OFF)
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/15672476/buy
 *****************************
-Discounted Price: Rs. 528
-Original Price: Rs. 669
-Discount: (21% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672870/buy
+Discounted Price: Rs. 1199
+Original Price: Rs. 1499
+Discount: (20% OFF)
+Link: https://www.myntra.com/tshirts/rare+rabbit/rare-rabbit-men-kos-round-neck-cotton-slim-fit-t-shirt/24003982/buy
+*****************************
+Discounted Price: Rs. 1832
+Original Price: Rs. 2290
+Discount: (20% OFF)
+Link: https://www.myntra.com/tshirts/bombay+shirt+company/bombay-shirt-company-men-raw-edge-t-shirt/31629061/buy
+*****************************
+Discounted Price: Rs. 743
+Original Price: Rs. 929
+Discount: (20% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-performance-solid-swift-dry-odour-shield-vest/18940772/buy
+*****************************
+Discounted Price: Rs. 2399
+Original Price: Rs. 2999
+Discount: (20% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-textured-polo-neck-pure-cotton-t-shirt/26373042/buy
 *****************************
 Discounted Price: Rs. 497
 Original Price: Rs. 599
@@ -2148,15 +1993,10 @@ Original Price: Rs. 599
 Discount: (17% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104749/buy
 *****************************
-Discounted Price: Rs. 497
-Original Price: Rs. 599
+Discounted Price: Rs. 505
+Original Price: Rs. 609
 Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104753/buy
-*****************************
-Discounted Price: Rs. 497
-Original Price: Rs. 599
-Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104749/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104754/buy
 *****************************
 Discounted Price: Rs. 497
 Original Price: Rs. 599
@@ -2173,30 +2013,20 @@ Original Price: Rs. 609
 Discount: (17% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104754/buy
 *****************************
-Discounted Price: Rs. 505
-Original Price: Rs. 609
-Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104751/buy
-*****************************
-Discounted Price: Rs. 505
-Original Price: Rs. 609
+Discounted Price: Rs. 497
+Original Price: Rs. 599
 Discount: (17% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104757/buy
 *****************************
 Discounted Price: Rs. 497
 Original Price: Rs. 599
 Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104755/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104748/buy
 *****************************
 Discounted Price: Rs. 497
 Original Price: Rs. 599
 Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104748/buy
-*****************************
-Discounted Price: Rs. 505
-Original Price: Rs. 609
-Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104754/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104744/buy
 *****************************
 Discounted Price: Rs. 505
 Original Price: Rs. 609
@@ -2226,52 +2056,37 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-
 Discounted Price: Rs. 505
 Original Price: Rs. 609
 Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104745/buy
-*****************************
-Discounted Price: Rs. 497
-Original Price: Rs. 599
-Discount: (17% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104741/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104742/buy
 *****************************
 Discounted Price: Rs. 497
 Original Price: Rs. 599
 Discount: (17% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104750/buy
 *****************************
+Discounted Price: Rs. 497
+Original Price: Rs. 599
+Discount: (17% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104739/buy
+*****************************
+Discounted Price: Rs. 497
+Original Price: Rs. 599
+Discount: (17% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104739/buy
+*****************************
 Discounted Price: Rs. 561
 Original Price: Rs. 669
 Discount: (16% OFF)
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/15672656/buy
-*****************************
-Discounted Price: Rs. 874
-Original Price: Rs. 1029
-Discount: (15% OFF)
-Link: https://www.myntra.com/lounge-tshirts/u.s.+polo+assn./us-polo-assn-henley-neck-solid-lounge-t-shirt/25781704/buy
-*****************************
-Discounted Price: Rs. 806
-Original Price: Rs. 949
-Discount: (15% OFF)
-Link: https://www.myntra.com/lounge-tshirts/u.s.+polo+assn./us-polo-assn-men-white-pure-cotton-solid-round-neck-lounge-t-shirt/14112796/buy
-*****************************
-Discounted Price: Rs. 874
-Original Price: Rs. 1029
-Discount: (15% OFF)
-Link: https://www.myntra.com/lounge-tshirts/u.s.+polo+assn./us-polo-assn-men-grey-melange-pure-cotton-solid-henley-neck-lounge-t-shirt/14112806/buy
 *****************************
 Discounted Price: Rs. 500
 Original Price: Rs. 589
 Discount: (15% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-quick-dry-ultra-soft-gym-vest/2113558/buy
 *****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1199
+Discounted Price: Rs. 527
+Original Price: Rs. 599
 Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-v-neck-regular-fit-casual-t-shirt/24212666/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1199
-Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-v-neck-regular-fit-casual-t-shirt/24212666/buy
+Link: https://www.myntra.com/lounge-tshirts/damensch/damensch-ultralight-basic-crew-men-pure-cotton-lounge-t-shirts/30205298/buy
 *****************************
 Discounted Price: Rs. 1055
 Original Price: Rs. 1199
@@ -2281,12 +2096,7 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-v-neck-regular-fit-ca
 Discounted Price: Rs. 1055
 Original Price: Rs. 1199
 Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-textured-swift-dry-anti-microbial-active-t-shirt/21408048/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1199
-Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-v-neck-regular-fit-casual-t-shirt/24212652/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-v-neck-regular-fit-casual-t-shirt/24212666/buy
 *****************************
 Discounted Price: Rs. 1055
 Original Price: Rs. 1199
@@ -2297,46 +2107,21 @@ Discounted Price: Rs. 923
 Original Price: Rs. 1049
 Discount: (12% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-textured-swift-dry-anti-microbial-active-t-shirt/10780184/buy
-*****************************
-Discounted Price: Rs. 923
-Original Price: Rs. 1049
-Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-textured-swift-dry-anti-microbial-active-t-shirt/10780184/buy
-*****************************
-Discounted Price: Rs. 923
-Original Price: Rs. 1049
-Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-textured-swift-dry-anti-microbial-active-t-shirt/10780184/buy
-*****************************
-Discounted Price: Rs. 923
-Original Price: Rs. 1049
-Discount: (12% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-textured-swift-dry-anti-microbial-active-t-shirt/10780184/buy
-*****************************
-Discounted Price: Rs. 533
-Original Price: Rs. 599
-Discount: (11% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-crew-neck-short-sleeve-t-shirt/21366420/buy
-*****************************
-Discounted Price: Rs. 533
-Original Price: Rs. 599
-Discount: (11% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-crew-neck-short-sleeve-t-shirt/21366412/buy
-*****************************
-Discounted Price: Rs. 2519
-Original Price: Rs. 2799
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-pockets-t-shirt/31598656/buy
 *****************************
 Discounted Price: Rs. 602
 Original Price: Rs. 669
 Discount: (10% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-pure-cotton-v-neck-short-sleeve-t-shirt/10780170/buy
 *****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
+Discounted Price: Rs. 2699
+Original Price: Rs. 2999
 Discount: (10% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/15734676/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/31598659/buy
+*****************************
+Discounted Price: Rs. 2699
+Original Price: Rs. 2999
+Discount: (10% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/31598659/buy
 *****************************
 Discounted Price: Rs. 2699
 Original Price: Rs. 2999
@@ -2347,31 +2132,6 @@ Discounted Price: Rs. 602
 Original Price: Rs. 669
 Discount: (10% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/2113664/buy
-*****************************
-Discounted Price: Rs. 2699
-Original Price: Rs. 2999
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/31598659/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/2113664/buy
-*****************************
-Discounted Price: Rs. 2699
-Original Price: Rs. 2999
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/31598659/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/2113664/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/10779876/buy
 *****************************
 Discounted Price: Rs. 602
 Original Price: Rs. 669
@@ -2383,10 +2143,10 @@ Original Price: Rs. 2999
 Discount: (10% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-self-design-polo-collar-cotton-t-shirt/30649727/buy
 *****************************
-Discounted Price: Rs. 2699
-Original Price: Rs. 2999
+Discounted Price: Rs. 602
+Original Price: Rs. 669
 Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-self-design-polo-collar-cotton-t-shirt/30649727/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/10779870/buy
 *****************************
 Discounted Price: Rs. 602
 Original Price: Rs. 669
@@ -2406,21 +2166,6 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-charco
 Discounted Price: Rs. 602
 Original Price: Rs. 669
 Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen--men-solid-crew-neck-short-sleeve-athleisure-t-shirt/10779920/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/10779870/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/2113672/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-smart-tech-easy-stain-release-t-shirt/15672708/buy
 *****************************
 Discounted Price: Rs. 602
@@ -2436,7 +2181,12 @@ Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-sol
 Discounted Price: Rs. 602
 Original Price: Rs. 669
 Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/2113672/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/2113662/buy
+*****************************
+Discounted Price: Rs. 602
+Original Price: Rs. 669
+Discount: (10% OFF)
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10779982/buy
 *****************************
 Discounted Price: Rs. 602
 Original Price: Rs. 669
@@ -2446,42 +2196,7 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-
 Discounted Price: Rs. 602
 Original Price: Rs. 669
 Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/2113662/buy
-*****************************
-Discounted Price: Rs. 494
-Original Price: Rs. 549
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10780050/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10779982/buy
-*****************************
-Discounted Price: Rs. 494
-Original Price: Rs. 549
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10780050/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10779982/buy
-*****************************
-Discounted Price: Rs. 494
-Original Price: Rs. 549
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10780050/buy
-*****************************
-Discounted Price: Rs. 602
-Original Price: Rs. 669
-Discount: (10% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/10779982/buy
-*****************************
-Discounted Price: Rs. 1241
-Original Price: Rs. 1349
-Discount: (8% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-swift-dry-anti-microbial-active-t-shirt/21408042/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/2113672/buy
 *****************************
 Discounted Price: Rs. 1241
 Original Price: Rs. 1349
@@ -2492,61 +2207,11 @@ Discounted Price: Rs. 1241
 Original Price: Rs. 1349
 Discount: (8% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-printed-swift-dry-anti-microbial-active-t-shirt/21408042/buy
-*****************************
-Discounted Price: Rs. 1241
-Original Price: Rs. 1349
-Discount: (8% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-swift-dry-anti-microbial-active-t-shirt/21408038/buy
 *****************************
 Discounted Price: Rs. 1195
 Original Price: Rs. 1299
 Discount: (8% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-printed-swift-dry-anti-microbial-active-t-shirt/10779874/buy
-*****************************
-Discounted Price: Rs. 1195
-Original Price: Rs. 1299
-Discount: (8% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-swift-dry-anti-microbial-active-t-shirt/10780056/buy
-*****************************
-Discounted Price: Rs. 1195
-Original Price: Rs. 1299
-Discount: (8% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-swift-dry-anti-microbial-active-t-shirt/10780056/buy
-*****************************
-Discounted Price: Rs. 1195
-Original Price: Rs. 1299
-Discount: (8% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-swift-dry-anti-microbial-active-t-shirt/10780056/buy
-*****************************
-Discounted Price: Rs. 1208
-Original Price: Rs. 1299
-Discount: (7% OFF)
-Link: https://www.myntra.com/tshirts/the+souled+store/the-souled-store-off-white--olive-peanuts-print-oversized-fit-pure-cotton-casual-t-shirt/24257220/buy
-*****************************
-Discounted Price: Rs. 563
-Original Price: Rs. 599
-Discount: (6% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirts/21366428/buy
-*****************************
-Discounted Price: Rs. 563
-Original Price: Rs. 599
-Discount: (6% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirt/21366402/buy
-*****************************
-Discounted Price: Rs. 563
-Original Price: Rs. 599
-Discount: (6% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirt/21366418/buy
-*****************************
-Discounted Price: Rs. 591
-Original Price: Rs. 629
-Discount: (6% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366406/buy
-*****************************
-Discounted Price: Rs. 591
-Original Price: Rs. 629
-Discount: (6% OFF)
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366410/buy
 *****************************
 Discounted Price: Rs. 591
 Original Price: Rs. 629
@@ -2576,12 +2241,17 @@ Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men
 Discounted Price: Rs. 361
 Original Price: Rs. 380
 Discount: (5% OFF)
-Link: https://www.myntra.com/lounge-tshirts/lux+cozi/lux-cozi-polo-collar-lounge-tshirts/28138238/buy
+Link: https://www.myntra.com/lounge-tshirts/lux+cozi/lux-cozi-polo-collar-lounge-tshirts/28138200/buy
 *****************************
-Discounted Price: Rs. 379
-Original Price: Rs. 399
+Discounted Price: Rs. 361
+Original Price: Rs. 380
 Discount: (5% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-moisture-wicking-ultra-soft-vest/10548342/buy
+Link: https://www.myntra.com/lounge-tshirts/lux+cozi/lux-cozi-polo-collar-lounge-tshirts/28138206/buy
+*****************************
+Discounted Price: Rs. 361
+Original Price: Rs. 380
+Discount: (5% OFF)
+Link: https://www.myntra.com/lounge-tshirts/lux+cozi/lux-cozi-polo-collar-lounge-tshirts/28138226/buy
 *****************************
 Discounted Price: Rs. 1055
 Original Price: Rs. 1099
@@ -2598,15 +2268,10 @@ Original Price: Rs. 1129
 Discount: (4% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-ultra-soft-short-sleeve-polo-collar-t-shirt/20777616/buy
 *****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
+Discounted Price: Rs. 1083
+Original Price: Rs. 1129
 Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-ultra-soft-short-sleeve-polo-t-shirt/15672632/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-ultra-soft-short-sleeve-polo-t-shirt/10779950/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-ultra-soft-short-sleeve-polo-collar-t-shirt/20777616/buy
 *****************************
 Discounted Price: Rs. 1055
 Original Price: Rs. 1099
@@ -2616,63 +2281,44 @@ Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-ultra-soft
 Discounted Price: Rs. 1055
 Original Price: Rs. 1099
 Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-ultra-soft-short-sleeve-polo-t-shirt/15672868/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-blue-solid-ultra-soft-short-sleeve-polo-t-shirt/15672664/buy
 *****************************
 Discounted Price: Rs. 1055
 Original Price: Rs. 1099
 Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-ultra-soft-short-sleeve-polo-t-shirt/15672868/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-blue-solid-ultra-soft-short-sleeve-polo-t-shirt/15672664/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-ultra-soft-short-sleeve-polo-t-shirt/15672868/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-blue-solid-ultra-soft-short-sleeve-polo-t-shirt/15672664/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-solid-ultra-soft-short-sleeve-polo-t-shirt/15672868/buy
-*****************************
-Discounted Price: Rs. 1055
-Original Price: Rs. 1099
-Discount: (4% OFF)
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-men-blue-solid-ultra-soft-short-sleeve-polo-t-shirt/15672664/buy
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-ultra-soft-short-sleeve-polo-t-shirt/10779950/buy
 *****************************
 Discounted Price: Rs. 593
 Original Price: Rs. 599
 Discount: (1% OFF)
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirts/21366436/buy
 *****************************
-Total number of T-shirts: 518
+Total number of T-shirts: 445
   Then I print the sorted data to the console                                 # steps.MyntraScraperSteps.DisplaySortedData()
 ]]></system-out>
-    <system-err><![CDATA[Error extracting products from page: Error {
+    <system-err><![CDATA[Error extracting discounted T-shirts: Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7504861371485027421\package\lib\server\progress.js:78:26)
-    at Frame.waitForSelector (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7504861371485027421\package\lib\server\frames.js:619:23)
-    at FrameDispatcher.waitForSelector (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7504861371485027421\package\lib\server\dispatchers\frameDispatcher.js:105:103)
-    at FrameDispatcher._handleCommand (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7504861371485027421\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7504861371485027421\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7832990147220006474\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7832990147220006474\package\lib\server\frames.js:1007:23)
+    at FrameDispatcher.click (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7832990147220006474\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7832990147220006474\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\KIIT\AppData\Local\Temp\playwright-java-7832990147220006474\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
-- waiting for locator(".product-base") to be visible
+- waiting for locator(".pagination-next")
+-   locator resolved to <li class="pagination-next">…</li>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is visible, enabled and stable
+-   scrolling into view if needed
+-   done scrolling
+-   performing click action
+-   <html lang="en">…</html> intercepts pointer events
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+- element was detached from the DOM, retrying
 
 ]]></system-err>
   </testcase>

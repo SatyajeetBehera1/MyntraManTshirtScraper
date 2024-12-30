@@ -28,15 +28,11 @@ public class MyntraScraperSteps {
     */
     @Given("I navigate to {string}")
     public void NavigateToUrl(String url) {
-        try {
             Playwright playwright = Playwright.create();
             BrowserType browserType = playwright.chromium();
             browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false));
             page = browser.newPage();
             page.navigate(url);
-        } catch (Exception e) {
-            System.err.println("Error navigating to URL: " + e.getMessage());
-        }
     }
 
     /*
@@ -195,7 +191,9 @@ public class MyntraScraperSteps {
     */
     @Then("I print the sorted data to the console")
     public void DisplaySortedData() {
-        try {
+        if(tshirts.isEmpty()){
+            System.out.println("No T-shirt found on "+brand+" brand");
+        }else{
             System.out.println("DISCOUNTS FOR BRAND: " + brand);
             System.out.println("*****************************");
             tshirts.forEach(tshirt -> {
@@ -207,8 +205,7 @@ public class MyntraScraperSteps {
             });
             System.out.println("Total number of T-shirts: " + tshirts.size());
             browser.close();
-        } catch (Exception e) {
-            System.err.println("Error displaying sorted data: " + e.getMessage());
         }
+        
     }
 }

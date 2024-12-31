@@ -28,11 +28,15 @@ public class MyntraScraperSteps {
     */
     @Given("I navigate to {string}")
     public void NavigateToUrl(String url) {
+        try{
             Playwright playwright = Playwright.create();
             BrowserType browserType = playwright.chromium();
             browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false));
             page = browser.newPage();
             page.navigate(url);
+        }catch (Exception e) {
+            System.err.println("Error navigating to URL: " + e.getMessage());
+        }
     }
 
     /*
